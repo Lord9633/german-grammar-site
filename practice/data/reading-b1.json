@@ -1,0 +1,265 @@
+{
+  "level": "b1",
+  "paragraphs": [
+    {
+      "text": "Letzte Woche war ich mit meiner Familie im Schwarzwald. Wir haben in einem kleinen Gasthof übernachtet. Am ersten Tag sind wir wandern gegangen. Abends haben wir zusammen gekocht und Spiele gespielt. Es war ein sehr schönes Wochenende.",
+      "questions": [
+        { "type": "mcq", "q": "Wo war die Familie?", "options": ["im Schwarzwald","in Berlin","am Meer"], "answer": 0 },
+        { "type": "mcq", "q": "Wo haben sie übernachtet?", "options": ["in einem Gasthof","bei Freunden","in einem Hotel"], "answer": 0 },
+        { "type": "mcq", "q": "Was haben sie am ersten Tag gemacht?", "options": ["gewandert","geschwommen","geshoppt"], "answer": 0 },
+        { "type": "mcq", "q": "Haben sie abends gespielt?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "War das Wochenende schön?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 }
+      ]
+    },
+    {
+      "text": "Peter arbeitet als Ingenieur in einer großen Firma. Jeden Morgen fährt er mit dem Zug zur Arbeit. Er muss oft Überstunden machen, weil viele Projekte gleichzeitig laufen. Nach der Arbeit trifft er sich manchmal mit Kollegen im Café. Am Wochenende erholt er sich gerne zu Hause.",
+      "questions": [
+        { "type": "mcq", "q": "Was ist Peters Beruf?", "options": ["Ingenieur","Lehrer","Arzt"], "answer": 0 },
+        { "type": "mcq", "q": "Wie fährt er zur Arbeit?", "options": ["mit dem Zug","mit dem Auto","zu Fuß"], "answer": 0 },
+        { "type": "mcq", "q": "Macht er Überstunden?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "Trifft er Kollegen im Café?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "Erholt er sich am Wochenende?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 }
+      ]
+    },
+    {
+      "text": "Letzten Sommer habe ich in Italien Urlaub gemacht. Wir sind nach Rom und Florenz gereist. Ich habe viele Fotos von alten Gebäuden gemacht. Das Essen war sehr lecker, besonders das Eis. Jeden Abend sind wir durch die Straßen spaziert und haben die Stadt genossen.",
+      "questions": [
+        { "type": "mcq", "q": "Wo war der Urlaub?", "options": ["Italien","Spanien","Frankreich"], "answer": 0 },
+        { "type": "mcq", "q": "Welche Städte haben sie besucht?", "options": ["Rom und Florenz","Berlin und München","Paris und Lyon"], "answer": 0 },
+        { "type": "mcq", "q": "Hat der Autor Fotos gemacht?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "Was war besonders lecker?", "options": ["Pizza","Eis","Kaffee"], "answer": 1 },
+        { "type": "mcq", "q": "Sind sie abends spazieren gegangen?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 }
+      ]
+    },
+    {
+      "text": "Clara hat letzte Woche eine neue Wohnung gefunden. Sie ist sehr groß und hat einen Balkon. Die Möbel sind modern und bequem. Nächste Woche möchte sie mit dem Einzug beginnen. Sie freut sich darauf, ihre Freunde einzuladen.",
+      "questions": [
+        { "type": "mcq", "q": "Hat Clara eine neue Wohnung gefunden?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "Hat die Wohnung einen Balkon?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "Sind die Möbel alt?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 1 },
+        { "type": "mcq", "q": "Wann möchte sie einziehen?", "options": ["letzte Woche","nächste Woche","heute"], "answer": 1 },
+        { "type": "mcq", "q": "Will sie Freunde einladen?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 }
+      ]
+    },
+    {
+      "text": "Am Wochenende haben wir einen Ausflug in die Berge gemacht. Das Wetter war sonnig und warm. Wir haben ein Picknick gemacht und Fotos gemacht. Die Kinder sind auf den Hügeln herumgelaufen. Es war ein entspannter und schöner Tag.",
+      "questions": [
+        { "type": "mcq", "q": "Wohin sind sie gefahren?", "options": ["in die Berge","ans Meer","in den Wald"], "answer": 0 },
+        { "type": "mcq", "q": "Wie war das Wetter?", "options": ["sonnig und warm","regnerisch","kalt"], "answer": 0 },
+        { "type": "mcq", "q": "Haben sie ein Picknick gemacht?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "Sind die Kinder gelaufen?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "War der Tag stressig?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 1 }
+      ]
+    },
+    {
+      "text": "Ich habe letzte Woche ein interessantes Buch gelesen. Es ging um Abenteuer in Südamerika. Besonders spannend war das Kapitel über den Amazonas. Ich konnte das Buch kaum aus der Hand legen. Am Ende war ich sehr begeistert von der Geschichte.",
+      "questions": [
+        { "type": "mcq", "q": "Wann hat der Autor das Buch gelesen?", "options": ["letzte Woche","letzten Monat","heute"], "answer": 0 },
+        { "type": "mcq", "q": "Worum ging es im Buch?", "options": ["Abenteuer in Südamerika","Krimi in Berlin","Romantikgeschichte"], "answer": 0 },
+        { "type": "mcq", "q": "War das Kapitel über den Amazonas spannend?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "Konnte der Autor das Buch leicht weglegen?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 1 },
+        { "type": "mcq", "q": "War er am Ende begeistert?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 }
+      ]
+    },
+    {
+      "text": "Mein Freund Jonas lernt seit einem Jahr Spanisch. Er übt jeden Tag Vokabeln und spricht oft mit seiner Lehrerin. Letzte Woche hat er einen kleinen Test geschrieben. Er war sehr zufrieden mit seinen Ergebnissen. Jetzt möchte er eine Sprachreise nach Spanien machen.",
+      "questions": [
+        { "type": "mcq", "q": "Welche Sprache lernt Jonas?", "options": ["Spanisch","Französisch","Italienisch"], "answer": 0 },
+        { "type": "mcq", "q": "Übt er jeden Tag?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "Hat er einen Test geschrieben?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "War er zufrieden?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "Will er nach Spanien reisen?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 }
+      ]
+    },
+    {
+      "text": "Am Freitagabend haben wir zusammen Pizza gebacken. Jeder durfte seine eigenen Zutaten wählen. Die Kinder hatten viel Spaß beim Belegen. Danach haben wir die Pizza zusammen gegessen. Es war ein lustiger und leckerer Abend.",
+      "questions": [
+        { "type": "mcq", "q": "Was haben sie am Freitagabend gemacht?", "options": ["Pizza gebacken","Salat gemacht","Kuchen gebacken"], "answer": 0 },
+        { "type": "mcq", "q": "Durften die Kinder eigene Zutaten wählen?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "Hatten sie Spaß?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "Haben sie die Pizza gegessen?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "War der Abend langweilig?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 1 }
+      ]
+    },
+    {
+      "text": "Letzte Woche habe ich im Supermarkt neue Produkte entdeckt. Es gab viele interessante Lebensmittel aus anderen Ländern. Ich habe ein exotisches Gewürz gekauft und zu Hause ausprobiert. Meine Familie fand das Essen sehr lecker. Ich möchte diese Produkte bald wieder kaufen.",
+      "questions": [
+        { "type": "mcq", "q": "Wo hat der Autor neue Produkte entdeckt?", "options": ["im Supermarkt","auf dem Markt","im Restaurant"], "answer": 0 },
+        { "type": "mcq", "q": "Waren die Lebensmittel aus dem Ausland?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "Hat er ein Gewürz gekauft?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "Fand die Familie das Essen lecker?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "Will er die Produkte wieder kaufen?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 }
+      ]
+    },
+    {
+      "text": "Gestern habe ich meine alte Freundin Anna getroffen. Wir haben uns lange unterhalten und viel gelacht. Danach sind wir zusammen spazieren gegangen. Es war schön, sich wiederzusehen. Wir haben beschlossen, uns bald wieder zu treffen.",
+      "questions": [
+        { "type": "mcq", "q": "Wen hat der Autor getroffen?", "options": ["Anna","Clara","Lisa"], "answer": 0 },
+        { "type": "mcq", "q": "Haben sie gelacht?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "Sind sie spazieren gegangen?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "War es schön, sich zu treffen?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "Wollen sie sich wiedersehen?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 }
+      ]
+    },
+    {
+      "text": "Letztes Wochenende habe ich ein Konzert besucht. Die Musik war sehr laut und aufregend. Ich habe viele neue Lieder gehört. Vor allem die Gitarrensoli haben mir gefallen. Am Ende des Konzerts habe ich Autogramme bekommen.",
+      "questions": [
+        { "type": "mcq", "q": "Was hat der Autor besucht?", "options": ["ein Konzert","eine Ausstellung","ein Theater"], "answer": 0 },
+        { "type": "mcq", "q": "Wie war die Musik?", "options": ["laut und aufregend","leise","langweilig"], "answer": 0 },
+        { "type": "mcq", "q": "Hat er neue Lieder gehört?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "Gefielen ihm die Gitarrensoli?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "Hat er Autogramme bekommen?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 }
+      ]
+    },
+    {
+      "text": "Im Winter fahren wir oft in die Skihalle. Die Kinder lernen dort Skifahren. Letztes Wochenende hat es besonders viel Schnee gegeben. Wir haben warme Kleidung getragen und viel Spaß gehabt. Am Abend sind wir erschöpft, aber glücklich nach Hause gefahren.",
+      "questions": [
+        { "type": "mcq", "q": "Wohin fahren sie im Winter?", "options": ["Skihalle","Meer","Stadtpark"], "answer": 0 },
+        { "type": "mcq", "q": "Lernen die Kinder Skifahren?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "Gab es viel Schnee?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "Haben sie Spaß gehabt?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "Sind sie abends müde nach Hause gefahren?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 }
+      ]
+    },
+    {
+      "text": "Ich habe letzte Woche einen Sprachkurs besucht. Wir haben über Alltagssituationen gesprochen und Dialoge geübt. Mein Lehrer hat viele Tipps gegeben. Die Übungen waren anspruchsvoll, aber interessant. Ich hoffe, dass ich bald besser sprechen kann.",
+      "questions": [
+        { "type": "mcq", "q": "Was hat der Autor besucht?", "options": ["Sprachkurs","Fitnesskurs","Musikkurs"], "answer": 0 },
+        { "type": "mcq", "q": "Worüber haben sie gesprochen?", "options": ["Alltagssituationen","Reisen","Sport"], "answer": 0 },
+        { "type": "mcq", "q": "Hat der Lehrer Tipps gegeben?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "Waren die Übungen leicht?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 1 },
+        { "type": "mcq", "q": "Will der Autor besser sprechen?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 }
+      ]
+    },
+    {
+      "text": "Letztes Jahr haben wir eine Fahrradtour gemacht. Wir sind mehrere Tage durch Deutschland gefahren. Unterwegs haben wir in kleinen Pensionen übernachtet. Das Wetter war meistens sonnig. Es war eine tolle Erfahrung, die ich nicht vergessen werde.",
+      "questions": [
+        { "type": "mcq", "q": "Welche Tour haben sie gemacht?", "options": ["Fahrradtour","Wanderung","Bootstour"], "answer": 0 },
+        { "type": "mcq", "q": "Wie lange waren sie unterwegs?", "options": ["mehrere Tage","nur einen Tag","eine Woche"], "answer": 0 },
+        { "type": "mcq", "q": "Wo haben sie übernachtet?", "options": ["Pensionen","Hotels","Zelte"], "answer": 0 },
+        { "type": "mcq", "q": "Wie war das Wetter?", "options": ["sonnig","regnerisch","kalt"], "answer": 0 },
+        { "type": "mcq", "q": "Wird er die Erfahrung vergessen?", "options": ["Nein","Ja","Nicht erwähnt"], "answer": 0 }
+      ]
+    },
+    {
+      "text": "Meine Schwester hat ein neues Hobby angefangen. Sie fotografiert gerne die Natur. Letzte Woche war sie im Park und hat viele Blumen fotografiert. Sie bearbeitet die Fotos am Computer. Ihre Bilder gefallen der ganzen Familie sehr gut.",
+      "questions": [
+        { "type": "mcq", "q": "Was macht die Schwester gerne?", "options": ["fotografiert","malt","tanzt"], "answer": 0 },
+        { "type": "mcq", "q": "Wo war sie letzte Woche?", "options": ["im Park","im Kino","im Supermarkt"], "answer": 0 },
+        { "type": "mcq", "q": "Bearbeitet sie die Fotos?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "Gefallen die Bilder der Familie?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "Ist das ein neues Hobby?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 }
+      ]
+    },
+    {
+      "text": "Ich habe letzte Woche ein neues Rezept ausprobiert. Es war ein italienisches Gericht mit Nudeln und Gemüse. Das Kochen hat viel Spaß gemacht. Meine Familie hat das Essen sehr gelobt. Ich möchte das Rezept bald wieder kochen.",
+      "questions": [
+        { "type": "mcq", "q": "Was hat der Autor ausprobiert?", "options": ["ein Rezept","eine Sportart","ein Buch"], "answer": 0 },
+        { "type": "mcq", "q": "Was für ein Gericht war es?", "options": ["italienisch","französisch","spanisch"], "answer": 0 },
+        { "type": "mcq", "q": "Hat das Kochen Spaß gemacht?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "Hat die Familie das Essen gelobt?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "Will er das Rezept wieder kochen?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 }
+      ]
+    },
+    {
+      "text": "Letzten Monat bin ich mit dem Zug nach München gefahren. Dort habe ich meine Freunde getroffen. Wir sind zusammen in die Innenstadt gegangen. Abends haben wir ein Konzert besucht. Die Reise war kurz, aber sehr schön.",
+      "questions": [
+        { "type": "mcq", "q": "Wohin ist der Autor gefahren?", "options": ["München","Berlin","Hamburg"], "answer": 0 },
+        { "type": "mcq", "q": "Wen hat er getroffen?", "options": ["Freunde","Familie","Kollegen"], "answer": 0 },
+        { "type": "mcq", "q": "Wohin sind sie gegangen?", "options": ["Innenstadt","Park","Schule"], "answer": 0 },
+        { "type": "mcq", "q": "Haben sie ein Konzert besucht?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "War die Reise lang?", "options": ["Nein","Ja","Nicht erwähnt"], "answer": 0 }
+      ]
+    },
+    {
+      "text": "Am Wochenende habe ich einen Kuchen gebacken. Ich habe Schokolade und Nüsse verwendet. Die Kinder haben beim Dekorieren geholfen. Danach haben wir den Kuchen zusammen gegessen. Alle waren sehr zufrieden mit dem Ergebnis.",
+      "questions": [
+        { "type": "mcq", "q": "Was hat der Autor gebacken?", "options": ["Kuchen","Pizza","Brot"], "answer": 0 },
+        { "type": "mcq", "q": "Welche Zutaten wurden verwendet?", "options": ["Schokolade und Nüsse","Obst und Käse","Milch und Butter"], "answer": 0 },
+        { "type": "mcq", "q": "Haben die Kinder geholfen?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "Haben sie den Kuchen gegessen?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "Waren alle zufrieden?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 }
+      ]
+    },
+    {
+      "text": "Letzte Woche habe ich meinen alten Computer aufgeräumt. Ich habe viele Dateien gelöscht und neue Programme installiert. Der Computer läuft jetzt viel schneller. Ich bin froh, dass ich alles sortiert habe. Nun kann ich wieder effizient arbeiten.",
+      "questions": [
+        { "type": "mcq", "q": "Was hat der Autor aufgeräumt?", "options": ["Computer","Zimmer","Schreibtisch"], "answer": 0 },
+        { "type": "mcq", "q": "Hat er Dateien gelöscht?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "Läuft der Computer jetzt schneller?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "Ist der Autor froh?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "Kann er effizient arbeiten?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 }
+      ]
+    },
+    {
+      "text": "Im Sommer fahren wir oft an den See. Wir schwimmen, spielen Volleyball und machen Picknicks. Letztes Wochenende haben wir ein Floß gebaut. Die Kinder hatten sehr viel Spaß dabei. Abends sitzen wir am Lagerfeuer und grillen Würstchen.",
+      "questions": [
+        { "type": "mcq", "q": "Wohin fahren sie im Sommer?", "options": ["See","Berge","Stadt"], "answer": 0 },
+        { "type": "mcq", "q": "Welche Aktivitäten machen sie?", "options": ["Schwimmen, Volleyball, Picknick","Wandern, Skifahren, Lesen","Radfahren, Kino, Musik"], "answer": 0 },
+        { "type": "mcq", "q": "Haben sie ein Floß gebaut?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "Hatten die Kinder Spaß?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "Grillen sie abends?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 }
+      ]
+    },
+    {
+      "text": "Ich habe letzte Woche einen Film im Kino gesehen. Es war ein spannender Thriller. Die Schauspieler waren sehr überzeugend. Vor allem das Ende war überraschend. Nach dem Film habe ich mit Freunden darüber diskutiert.",
+      "questions": [
+        { "type": "mcq", "q": "Was hat der Autor gesehen?", "options": ["Film","Konzert","Theaterstück"], "answer": 0 },
+        { "type": "mcq", "q": "Welches Genre war der Film?", "options": ["Thriller","Komödie","Dokumentation"], "answer": 0 },
+        { "type": "mcq", "q": "Waren die Schauspieler überzeugend?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "War das Ende überraschend?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "Hat er mit Freunden diskutiert?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 }
+      ]
+    },
+    {
+      "text": "Letzte Woche habe ich einen Ausflug in den Zoo gemacht. Ich habe viele Tiere gesehen, darunter Elefanten und Löwen. Besonders die Affen waren sehr aktiv und lustig. Ich habe viele Fotos gemacht. Es war ein schöner Tag für die ganze Familie.",
+      "questions": [
+        { "type": "mcq", "q": "Wohin ist der Autor gegangen?", "options": ["Zoo","Museum","Park"], "answer": 0 },
+        { "type": "mcq", "q": "Welche Tiere hat er gesehen?", "options": ["Elefanten und Löwen","Katzen und Hunde","Vögel und Fische"], "answer": 0 },
+        { "type": "mcq", "q": "Waren die Affen aktiv?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "Hat der Autor Fotos gemacht?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "War der Tag schön?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 }
+      ]
+    },
+    {
+      "text": "Am Wochenende habe ich einen neuen Kurs im Fitnessstudio begonnen. Wir haben verschiedene Übungen gemacht, darunter Yoga und Krafttraining. Der Trainer hat alles gut erklärt. Es war anstrengend, aber ich habe viel gelernt. Ich möchte den Kurs regelmäßig besuchen.",
+      "questions": [
+        { "type": "mcq", "q": "Wo hat der Autor den Kurs besucht?", "options": ["Fitnessstudio","Schule","Kino"], "answer": 0 },
+        { "type": "mcq", "q": "Welche Übungen haben sie gemacht?", "options": ["Yoga und Krafttraining","Schwimmen und Laufen","Tanzen und Singen"], "answer": 0 },
+        { "type": "mcq", "q": "Hat der Trainer erklärt?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "War der Kurs anstrengend?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "Will der Autor den Kurs wieder besuchen?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 }
+      ]
+    },
+    {
+      "text": "Letzten Monat habe ich einen Workshop über Fotografie besucht. Wir haben gelernt, wie man Licht und Schatten richtig einsetzt. Ich habe viele praktische Tipps bekommen. Am Ende durften wir eigene Fotos präsentieren. Es war eine sehr interessante Erfahrung.",
+      "questions": [
+        { "type": "mcq", "q": "Was für einen Workshop hat der Autor besucht?", "options": ["Fotografie","Kochen","Malen"], "answer": 0 },
+        { "type": "mcq", "q": "Worauf haben sie geachtet?", "options": ["Licht und Schatten","Farben","Musik"], "answer": 0 },
+        { "type": "mcq", "q": "Hat er praktische Tipps bekommen?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "Durften sie eigene Fotos zeigen?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "War es interessant?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 }
+      ]
+    },
+    {
+      "text": "Letzte Woche habe ich einen Spaziergang im Wald gemacht. Es war ruhig und friedlich. Ich habe viele Vögel beobachtet und Fotos gemacht. Das Licht durch die Bäume war wunderschön. Ich habe mich sehr entspannt gefühlt.",
+      "questions": [
+        { "type": "mcq", "q": "Wohin ist der Autor gegangen?", "options": ["Wald","Stadt","Park"], "answer": 0 },
+        { "type": "mcq", "q": "Wie war es im Wald?", "options": ["ruhig und friedlich","laut","chaotisch"], "answer": 0 },
+        { "type": "mcq", "q": "Hat er Vögel gesehen?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "War das Licht schön?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "Hat er sich entspannt gefühlt?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 }
+      ]
+    },
+    {
+      "text": "Ich habe letzte Woche neue Musik entdeckt. Es war eine Mischung aus Pop und Jazz. Ich habe die Lieder den ganzen Tag gehört. Besonders die Melodien haben mir gefallen. Jetzt höre ich sie jeden Abend zum Entspannen.",
+      "questions": [
+        { "type": "mcq", "q": "Welche Musik hat der Autor entdeckt?", "options": ["Pop und Jazz","Klassik","Rock"], "answer": 0 },
+        { "type": "mcq", "q": "Hat er die Lieder oft gehört?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "Gefällt ihm die Melodie?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "Hört er die Musik abends?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "Ist es entspannend?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 }
+      ]
+    }
+  ]
+}

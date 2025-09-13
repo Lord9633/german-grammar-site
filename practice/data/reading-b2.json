@@ -1,0 +1,212 @@
+{
+  "level": "b2",
+  "paragraphs": [
+    {
+      "text": "Letzten Sommer habe ich beschlossen, eine neue Sprache zu lernen. Ich habe mich für Spanisch entschieden, weil ich die Kultur und Musik sehr interessant finde. Jeden Tag übe ich mindestens eine Stunde mit verschiedenen Apps und Online-Kursen. Am Wochenende treffe ich mich mit Freunden, die ebenfalls Spanisch lernen, um Gespräche zu üben. Außerdem lese ich spanische Bücher und höre Podcasts, um mein Hörverständnis zu verbessern. Anfangs war es sehr schwierig, die Grammatikregeln zu verstehen, aber mit der Zeit wurde es leichter. Ich habe auch angefangen, kleine Texte selbst zu schreiben, um meinen Wortschatz zu erweitern. Es ist spannend zu sehen, wie sich meine Fähigkeiten langsam verbessern. Inzwischen kann ich einfache Gespräche führen und kurze Geschichten verstehen. Ich freue mich auf die nächsten Monate, um noch besser zu werden.",
+      "questions": [
+        { "type": "mcq", "q": "Welche Sprache lernt der Autor?", "options": ["Spanisch","Französisch","Italienisch"], "answer": 0 },
+        { "type": "mcq", "q": "Wie lange übt er täglich?", "options": ["30 Minuten","1 Stunde","2 Stunden"], "answer": 1 },
+        { "type": "mcq", "q": "Warum wählt er diese Sprache?", "options": ["Weil sie einfach ist","Wegen Kultur und Musik","Weil Freunde es lernen"], "answer": 1 },
+        { "type": "mcq", "q": "Was liest er, um zu lernen?", "options": ["Zeitungen","Bücher","Magazine"], "answer": 1 },
+        { "type": "mcq", "q": "Kann er jetzt Gespräche führen?", "options": ["Ja, einfache","Nein","Nur schreiben"], "answer": 0 }
+      ]
+    },
+    {
+      "text": "Im letzten Jahr habe ich an einem Freiwilligenprojekt in Afrika teilgenommen. Ziel des Projekts war es, Schulen in ländlichen Regionen zu unterstützen. Ich habe mit Lehrern zusammengearbeitet, Unterrichtsmaterialien vorbereitet und bei Schulveranstaltungen geholfen. Die Kinder waren sehr motiviert und neugierig, neue Dinge zu lernen. Jeden Tag habe ich viel über die lokalen Traditionen und Bräuche erfahren. Es war auch eine Herausforderung, die sprachlichen Unterschiede zu überwinden. Ich habe viel über interkulturelle Kommunikation gelernt und neue Freundschaften geschlossen. Abends haben wir oft unsere Erfahrungen ausgetauscht und reflektiert. Die Arbeit war manchmal anstrengend, aber äußerst bereichernd. Am Ende des Projekts fühlte ich mich zufrieden und stolz auf unsere Leistungen.",
+      "questions": [
+        { "type": "mcq", "q": "Wo hat der Autor gearbeitet?", "options": ["Afrika","Asien","Europa"], "answer": 0 },
+        { "type": "mcq", "q": "Was war das Ziel des Projekts?", "options": ["Krankenhäuser unterstützen","Schulen unterstützen","Sportvereine fördern"], "answer": 1 },
+        { "type": "mcq", "q": "Mit wem hat er zusammengearbeitet?", "options": ["Eltern","Lehrer","Ärzte"], "answer": 1 },
+        { "type": "mcq", "q": "War die Arbeit einfach?", "options": ["Ja","Nein, aber bereichernd","Nicht erwähnt"], "answer": 1 },
+        { "type": "mcq", "q": "Hat er Freundschaften geschlossen?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 }
+      ]
+    },
+    {
+      "text": "Vor einigen Monaten habe ich mich entschieden, meine Ernährung zu verbessern. Ich habe begonnen, mehr Obst und Gemüse zu essen und auf zuckerhaltige Getränke zu verzichten. Außerdem habe ich versucht, regelmäßig Sport zu treiben, wie Joggen und Schwimmen. Anfangs war es schwer, alte Gewohnheiten zu ändern, aber nach einigen Wochen merkte ich erste Erfolge. Meine Energielevel stiegen und ich fühlte mich insgesamt fitter. Ich habe auch gelernt, Mahlzeiten selbst zuzubereiten, anstatt Fertiggerichte zu kaufen. Zusätzlich habe ich mich über Ernährung informiert und verschiedene Rezepte ausprobiert. Freunde haben mich unterstützt und manchmal zusammen trainiert. Ich plane, diese gesunde Lebensweise langfristig beizubehalten. Es ist erstaunlich, wie kleine Veränderungen große Wirkung zeigen können.",
+      "questions": [
+        { "type": "mcq", "q": "Was hat der Autor verändert?", "options": ["Ernährung","Wohnung","Hobbys"], "answer": 0 },
+        { "type": "mcq", "q": "Welche Getränke vermeidet er?", "options": ["Wasser","Zuckerhaltige","Tee"], "answer": 1 },
+        { "type": "mcq", "q": "Welche Sportarten macht er?", "options": ["Tennis und Yoga","Joggen und Schwimmen","Radfahren und Klettern"], "answer": 1 },
+        { "type": "mcq", "q": "Hat er Fortschritte bemerkt?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "Will er die Änderungen beibehalten?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 }
+      ]
+    },
+    {
+      "text": "Im Frühling habe ich einen kleinen Garten auf meinem Balkon angelegt. Ich habe verschiedene Pflanzen wie Tomaten, Kräuter und Blumen gepflanzt. Jeden Morgen gieße ich die Pflanzen und entferne Unkraut. Es ist sehr entspannend, die Natur direkt zu beobachten. Außerdem kann ich frische Kräuter zum Kochen verwenden. Manchmal experimentiere ich mit neuen Pflanzenarten. Ich habe gelernt, wie wichtig Bodenpflege und Sonneneinstrahlung sind. Nach einigen Wochen haben die Pflanzen kräftig gewachsen und sogar erste Früchte getragen. Ich habe Fotos gemacht, um den Fortschritt zu dokumentieren. Der Garten ist mittlerweile ein kleiner Rückzugsort für mich geworden.",
+      "questions": [
+        { "type": "mcq", "q": "Wo befindet sich der Garten?", "options": ["Im Hinterhof","Auf dem Balkon","Im Park"], "answer": 1 },
+        { "type": "mcq", "q": "Welche Pflanzen hat er gepflanzt?", "options": ["Tomaten, Kräuter, Blumen","Kartoffeln, Salat, Rosen","Orangen, Zitronen, Lavendel"], "answer": 0 },
+        { "type": "mcq", "q": "Was macht er morgens?", "options": ["Kochen","Gießen und Unkraut entfernen","Lesen"], "answer": 1 },
+        { "type": "mcq", "q": "Wachsen die Pflanzen gut?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "Ist der Garten entspannend?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 }
+      ]
+    },
+    {
+      "text": "Ich habe letzten Monat ein Praktikum bei einem großen Unternehmen gemacht. Ich habe in der Marketingabteilung gearbeitet und verschiedene Aufgaben übernommen. Dazu gehörten Marktanalysen, die Erstellung von Präsentationen und die Planung von Veranstaltungen. Ich habe viel über strategische Planung und Teamarbeit gelernt. Die Kollegen waren sehr freundlich und haben mich unterstützt. An manchen Tagen war es stressig, da die Deadlines eng waren. Ich konnte jedoch meine Fähigkeiten im Projektmanagement verbessern. Am Ende des Praktikums habe ich ein Feedbackgespräch erhalten, das sehr positiv war. Das Praktikum hat mir geholfen, berufliche Erfahrungen zu sammeln. Ich fühle mich nun besser auf zukünftige Aufgaben vorbereitet.",
+      "questions": [
+        { "type": "mcq", "q": "In welchem Bereich hat er gearbeitet?", "options": ["Marketing","IT","Finanzen"], "answer": 0 },
+        { "type": "mcq", "q": "Welche Aufgaben hatte er?", "options": ["Programmieren","Marktanalyse und Präsentationen","Buchhaltung"], "answer": 1 },
+        { "type": "mcq", "q": "Waren die Kollegen freundlich?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "War es manchmal stressig?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "Hat das Praktikum geholfen?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 }
+      ]
+    },
+    {
+      "text": "Ich habe vor kurzem ein Buch über moderne Psychologie gelesen. Es behandelt Themen wie Stressbewältigung, Motivation und Kommunikation. Besonders interessant fand ich die Kapitel über emotionale Intelligenz. Ich habe gelernt, wie wichtig Selbstreflexion im Alltag ist. Außerdem gab es viele praktische Übungen, die helfen, das Wissen direkt anzuwenden. Ich habe Notizen gemacht, um wichtige Punkte später nachlesen zu können. Manche Konzepte waren schwierig zu verstehen, aber durch Beispiele wurden sie klarer. Das Buch hat mir neue Perspektiven eröffnet. Ich habe auch begonnen, einige Übungen im Alltag auszuprobieren. Insgesamt hat es mir sehr gut gefallen und mich inspiriert.",
+      "questions": [
+        { "type": "mcq", "q": "Welches Thema behandelt das Buch?", "options": ["Psychologie","Geschichte","Kunst"], "answer": 0 },
+        { "type": "mcq", "q": "Was fand der Autor interessant?", "options": ["Emotionale Intelligenz","Architektur","Reisen"], "answer": 0 },
+        { "type": "mcq", "q": "Hat er Notizen gemacht?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "Wurden Übungen im Alltag ausprobiert?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "Hat ihm das Buch gefallen?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 }
+      ]
+    },
+    {
+      "text": "Im Sommer bin ich mit meiner Familie nach Italien gereist. Wir haben Städte wie Rom, Florenz und Venedig besucht. Besonders beeindruckt haben mich die historischen Bauwerke und Museen. Wir haben viele Fotos gemacht und lokale Spezialitäten probiert. Es war interessant, die Kultur und Traditionen der Menschen kennenzulernen. Wir haben auch Ausflüge in die Umgebung gemacht, zum Beispiel an Seen und Strände. Das Wetter war meist sonnig und angenehm. Abends sind wir oft spazieren gegangen und haben den Tag reflektiert. Ich habe viel über Kunst und Geschichte gelernt. Die Reise war eine tolle Erfahrung für die ganze Familie.",
+      "questions": [
+        { "type": "mcq", "q": "Wohin ist die Familie gereist?", "options": ["Spanien","Italien","Frankreich"], "answer": 1 },
+        { "type": "mcq", "q": "Welche Städte wurden besucht?", "options": ["Rom, Florenz, Venedig","Berlin, München, Hamburg","Paris, Lyon, Marseille"], "answer": 0 },
+        { "type": "mcq", "q": "Was hat sie probiert?", "options": ["Lokale Spezialitäten","Fast Food","Nur Snacks"], "answer": 0 },
+        { "type": "mcq", "q": "War das Wetter schlecht?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 1 },
+        { "type": "mcq", "q": "Hat sie etwas über Geschichte gelernt?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 }
+      ]
+    },
+    {
+      "text": "Letzten Winter habe ich angefangen, Ski zu lernen. Ich habe einen Kurs in den Alpen besucht und jeden Tag mehrere Stunden trainiert. Anfangs war es schwierig, die Balance zu halten und die Technik zu verstehen. Mit der Zeit konnte ich jedoch längere Strecken fahren. Ich habe gelernt, wie wichtig Aufwärmübungen und Pausen sind. Die Landschaft war wunderschön und motivierte mich zusätzlich. Außerdem habe ich neue Freunde kennengelernt, die ebenfalls den Sport liebten. Wir haben uns gegenseitig Tipps gegeben und Fortschritte beobachtet. Trotz kleinerer Stürze machte das Skifahren großen Spaß. Am Ende des Kurses konnte ich selbstständig einfache Abfahrten bewältigen.",
+      "questions": [
+        { "type": "mcq", "q": "Was hat der Autor gelernt?", "options": ["Schwimmen","Ski fahren","Radfahren"], "answer": 1 },
+        { "type": "mcq", "q": "Wo war der Kurs?", "options": ["Alpen","Pyrenäen","Anden"], "answer": 0 },
+        { "type": "mcq", "q": "War es anfangs schwierig?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "Hat er Freunde kennengelernt?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "Kann er nun selbstständig fahren?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 }
+      ]
+    },
+    {
+      "text": "Ich habe vor kurzem einen Online-Kurs über Fotografie begonnen. Es geht um Kameratechnik, Bildkomposition und Nachbearbeitung. Ich lerne, wie man gute Fotos plant und Licht gezielt einsetzt. Jede Woche gibt es praktische Aufgaben, die ich direkt umsetze. Ich analysiere meine Bilder und vergleiche sie mit Beispielen. Der Kursleiter gibt Feedback und Tipps zur Verbesserung. Ich habe auch begonnen, ein Fototagebuch zu führen. Es ist interessant zu sehen, wie kleine Änderungen große Unterschiede machen. Meine Kreativität hat sich dadurch deutlich gesteigert. Ich plane, nach dem Kurs eigene Fotoprojekte umzusetzen.",
+      "questions": [
+        { "type": "mcq", "q": "Worum geht es im Kurs?", "options": ["Fotografie","Kochen","Programmieren"], "answer": 0 },
+        { "type": "mcq", "q": "Was lernt er?", "options": ["Kameratechnik und Bildkomposition","Geschichte","Mathematik"], "answer": 0 },
+        { "type": "mcq", "q": "Gibt es praktische Aufgaben?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "Führt er ein Fototagebuch?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "Hat der Kurs seine Kreativität gesteigert?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 }
+      ]
+    },
+    [
+  {
+    "text": "Ich habe vor kurzem angefangen, ein Musikinstrument zu lernen – die Violine. Anfangs fiel es mir schwer, die richtigen Töne zu treffen und die Fingerkoordination zu beherrschen. Ich übe täglich etwa eine Stunde und achte auf die Haltung und den Bogenstrich. Mein Lehrer gibt mir regelmäßig Rückmeldungen, die mir helfen, meine Technik zu verbessern. Zusätzlich höre ich klassische Musik, um ein besseres Gehör zu entwickeln. Nach einigen Wochen merke ich, dass meine Finger schneller reagieren und die Melodien harmonischer klingen. Ich habe auch begonnen, kleine Stücke selbst zu komponieren. Übung und Geduld sind entscheidend, um Fortschritte zu machen. Manchmal frustriert es mich, wenn ein Ton nicht perfekt klingt. Trotzdem macht mir das Musizieren viel Freude und Motivation.",
+    "questions": [
+      { "type": "mcq", "q": "Welches Instrument lernt der Autor?", "options": ["Klavier","Violine","Gitarre"], "answer": 1 },
+      { "type": "mcq", "q": "Wie lange übt er täglich?", "options": ["30 Minuten","1 Stunde","2 Stunden"], "answer": 1 },
+      { "type": "mcq", "q": "Was hört er zusätzlich?", "options": ["Popmusik","Klassische Musik","Jazz"], "answer": 1 },
+      { "type": "mcq", "q": "Komponiert er selbst?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+      { "type": "mcq", "q": "Macht ihm das Musizieren Freude?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 }
+    ]
+  },
+  {
+    "text": "Letzten Herbst habe ich einen Fotowettbewerb in meiner Stadt entdeckt. Ich habe mich entschieden, teilzunehmen und eigene Fotos einzureichen. Die Themen waren Natur, Architektur und Menschen. Ich habe verschiedene Orte besucht, um passende Motive zu finden und das Licht richtig zu nutzen. Nach mehreren Wochen intensiver Arbeit habe ich meine besten Fotos ausgewählt und eingereicht. Es war spannend zu sehen, wie andere Teilnehmer kreativ gearbeitet haben. Die Jury hat die eingereichten Arbeiten professionell bewertet. Ich habe wertvolles Feedback erhalten, das meine Technik und Perspektive verbesserte. Der Wettbewerb hat mir neue Motivation gegeben, meine Fähigkeiten weiterzuentwickeln. Am Ende gewann ich zwar keinen Preis, aber ich war stolz auf meine Fortschritte.",
+    "questions": [
+      { "type": "mcq", "q": "Worum ging es beim Wettbewerb?", "options": ["Fotografie","Malerei","Schreiben"], "answer": 0 },
+      { "type": "mcq", "q": "Welche Themen gab es?", "options": ["Natur, Architektur, Menschen","Sport, Musik, Filme","Tiere, Essen, Reisen"], "answer": 0 },
+      { "type": "mcq", "q": "Hat er einen Preis gewonnen?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 1 },
+      { "type": "mcq", "q": "Hat er Feedback bekommen?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+      { "type": "mcq", "q": "War er stolz auf seine Arbeit?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 }
+    ]
+  },
+  {
+    "text": "Ich habe kürzlich beschlossen, ein Tagebuch über meine täglichen Aktivitäten zu führen. Ziel ist es, meine Gewohnheiten zu beobachten und zu verbessern. Jeden Abend schreibe ich, was ich getan habe, wie ich mich gefühlt habe und welche Erfolge oder Schwierigkeiten ich hatte. Durch die Reflexion kann ich Muster erkennen und Strategien entwickeln, um effizienter zu arbeiten. Manchmal füge ich auch Zeichnungen oder Fotos hinzu, um besondere Momente festzuhalten. Das Tagebuch hilft mir, Stress abzubauen und Ziele klarer zu sehen. Es ist erstaunlich, wie viel man über sich selbst lernen kann. Ich habe bemerkt, dass ich produktiver werde und weniger Ablenkungen zulasse. Die Praxis erfordert Disziplin, aber die Vorteile sind groß. Ich empfehle jedem, ein persönliches Journal zu führen.",
+    "questions": [
+      { "type": "mcq", "q": "Was führt der Autor?", "options": ["Kalender","Tagebuch","Blog"], "answer": 1 },
+      { "type": "mcq", "q": "Wann schreibt er?", "options": ["Morgens","Abends","Mittags"], "answer": 1 },
+      { "type": "mcq", "q": "Warum schreibt er ein Tagebuch?", "options": ["Zur Reflexion","Zum Vergessen","Für andere"], "answer": 0 },
+      { "type": "mcq", "q": "Fügt er Bilder hinzu?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+      { "type": "mcq", "q": "Hilft ihm das Tagebuch produktiver zu sein?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 }
+    ]
+  },
+  {
+    "text": "Im Frühling habe ich einen Kurs in kreativer Schreibtechnik besucht. Wir haben gelernt, wie man Geschichten plant, Charaktere entwickelt und Spannung erzeugt. Jede Woche mussten wir eine neue Kurzgeschichte schreiben und im Kurs vorstellen. Die Rückmeldungen von Lehrern und Mitschülern halfen, die Texte zu verbessern. Ich habe viel über Ausdrucksweise, Stil und Perspektive gelernt. Manchmal war es schwierig, passende Ideen zu finden, aber der Austausch mit der Gruppe motivierte mich. Zusätzlich habe ich begonnen, Gedichte zu schreiben. Durch die Übungen konnte ich meine Kreativität und sprachlichen Fähigkeiten erweitern. Das Schreiben macht mir immer mehr Freude. Ich plane, ein eigenes Buchprojekt zu starten.",
+    "questions": [
+      { "type": "mcq", "q": "Welchen Kurs besuchte der Autor?", "options": ["Schreiben","Fotografie","Musik"], "answer": 0 },
+      { "type": "mcq", "q": "Was musste er schreiben?", "options": ["Kurzgeschichten","Artikel","Rezepte"], "answer": 0 },
+      { "type": "mcq", "q": "Hat er Gedichte geschrieben?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+      { "type": "mcq", "q": "War es manchmal schwierig?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+      { "type": "mcq", "q": "Plant er ein eigenes Buch?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 }
+    ]
+  },
+  {
+    "text": "Ich habe beschlossen, meine fotografischen Fähigkeiten zu erweitern, indem ich an einem Workshop über Licht und Schatten teilgenommen habe. Wir haben gelernt, wie man die Beleuchtung kontrolliert, um bestimmte Effekte zu erzielen. Ich habe verschiedene Techniken ausprobiert, wie Gegenlicht, Seitenlicht und Reflektoren. Es war interessant zu sehen, wie Licht die Stimmung eines Fotos verändern kann. Jede Übung wurde im Team analysiert, und der Trainer gab Tipps zur Verbesserung. Ich habe auch gelernt, wie wichtig Nachbearbeitung in Programmen wie Photoshop ist. Am Ende des Workshops konnte ich deutlich bessere Fotos machen. Ich fühle mich motiviert, neue Projekte umzusetzen. Es war eine intensive, aber sehr lehrreiche Erfahrung. Meine Kreativität wurde durch die Übungen deutlich gefördert.",
+    "questions": [
+      { "type": "mcq", "q": "Worum ging es im Workshop?", "options": ["Licht und Schatten","Reisen","Kochen"], "answer": 0 },
+      { "type": "mcq", "q": "Welche Techniken wurden ausprobiert?", "options": ["Gegenlicht und Seitenlicht","Farbgestaltung","Schreiben"], "answer": 0 },
+      { "type": "mcq", "q": "Hat der Trainer Tipps gegeben?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+      { "type": "mcq", "q": "Hat er bessere Fotos gemacht?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+      { "type": "mcq", "q": "War der Workshop lehrreich?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 }
+    ]
+  },
+  {
+    "text": "Vor einigen Wochen habe ich mich entschieden, an einem Sprachkurs für Französisch teilzunehmen. Der Kurs findet zweimal pro Woche statt und konzentriert sich auf Konversation und Grammatik. Wir üben Dialoge, schreiben kurze Texte und hören Hörverständnisübungen. Ich habe bemerkt, dass meine Aussprache sich verbessert und ich flüssiger sprechen kann. Manchmal ist es schwierig, komplexe Sätze zu bilden, aber der Lehrer gibt hilfreiche Korrekturen. Ich habe auch angefangen, französische Filme zu schauen, um das Hörverständnis zu trainieren. Der Austausch mit Mitschülern macht den Kurs interessant und motivierend. Ich hoffe, dass ich bald längere Gespräche führen kann. Französisch zu lernen bereitet mir große Freude.",
+    "questions": [
+      { "type": "mcq", "q": "Welchen Kurs besucht der Autor?", "options": ["Französisch","Spanisch","Deutsch"], "answer": 0 },
+      { "type": "mcq", "q": "Wie oft findet der Kurs statt?", "options": ["Einmal pro Woche","Zweimal pro Woche","Täglich"], "answer": 1 },
+      { "type": "mcq", "q": "Welche Übungen gibt es?", "options": ["Dialoge und Hörverständnis","Tanzen","Kochen"], "answer": 0 },
+      { "type": "mcq", "q": "Schaut er Filme?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+      { "type": "mcq", "q": "Macht ihm der Kurs Freude?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 }
+    ]
+  },
+  {
+    "text": "Im Sommer habe ich begonnen, regelmäßig zu joggen, um meine Fitness zu verbessern. Anfangs konnte ich nur kurze Strecken laufen, aber nach einigen Wochen steigerte ich die Distanz. Ich achte auf eine korrekte Lauftechnik und trage passende Schuhe, um Verletzungen zu vermeiden. Außerdem achte ich auf meine Ernährung und trinke ausreichend Wasser. Das Laufen hilft mir, Stress abzubauen und den Kopf frei zu bekommen. Ich dokumentiere meine Fortschritte mit einer App und setze mir wöchentliche Ziele. Es motiviert mich, kleine Erfolge zu feiern. Manchmal trainiere ich mit Freunden, was das Joggen noch angenehmer macht. Ich plane, an einem kleinen Stadtlauf teilzunehmen. Joggen ist zu einer festen Gewohnheit geworden, die mir Spaß macht.",
+    "questions": [
+      { "type": "mcq", "q": "Warum joggt der Autor?", "options": ["Fitness verbessern","Zum Spaß","Um Geld zu verdienen"], "answer": 0 },
+      { "type": "mcq", "q": "Kann er am Anfang lange Strecken laufen?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 1 },
+      { "type": "mcq", "q": "Dokumentiert er seine Fortschritte?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+      { "type": "mcq", "q": "Trainiert er manchmal mit Freunden?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+      { "type": "mcq", "q": "Will er an einem Lauf teilnehmen?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 }
+    ]
+  },
+  {
+    "text": "Ich habe angefangen, mich intensiver mit gesunder Ernährung auseinanderzusetzen. Ich plane meine Mahlzeiten und versuche, frische und ausgewogene Lebensmittel zu verwenden. Ich habe auch begonnen, meine Kalorienaufnahme zu kontrollieren und auf Zucker sowie Fett zu achten. Jeden Tag esse ich Obst, Gemüse und Vollkornprodukte. Ich koche lieber selbst, anstatt Fertiggerichte zu kaufen. Durch diese Änderungen fühle ich mich fitter und habe mehr Energie. Zusätzlich habe ich gelernt, Etiketten in Supermärkten richtig zu lesen. Ich plane, langfristig einen ausgewogenen Lebensstil zu führen. Kleine Veränderungen zeigen bereits große Wirkung. Freunde unterstützen mich bei meinen neuen Essgewohnheiten.",
+    "questions": [
+      { "type": "mcq", "q": "Worauf achtet der Autor besonders?", "options": ["Kalorien und Zucker","Sport","Fernsehen"], "answer": 0 },
+      { "type": "mcq", "q": "Welche Lebensmittel isst er täglich?", "options": ["Obst, Gemüse, Vollkorn","Fast Food","Nur Obst"], "answer": 0 },
+      { "type": "mcq", "q": "Kauft er Fertiggerichte?", "options": ["Nein","Ja","Nicht erwähnt"], "answer": 0 },
+      { "type": "mcq", "q": "Fühlt er sich fitter?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+      { "type": "mcq", "q": "Unterstützen ihn Freunde?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 }
+    ]
+  },
+  {
+    "text": "Ich habe einen Workshop zum Thema Zeitmanagement besucht. Wir haben Techniken gelernt, wie man Aufgaben priorisiert und effizient plant. Es wurden verschiedene Methoden vorgestellt, z. B. To-Do-Listen, Zeitblöcke und das Setzen realistischer Ziele. Ich habe praktische Übungen gemacht, um die Methoden auszuprobieren. Es war interessant zu sehen, wie kleine Veränderungen den Arbeitsalltag verbessern können. Ich habe begonnen, meine eigenen Wochenpläne zu erstellen und Aufgaben besser zu strukturieren. Die Übungen halfen mir, weniger Stress zu haben und produktiver zu sein. Ich plane, diese Methoden langfristig anzuwenden. Der Workshop war intensiv, aber sehr lehrreich. Ich habe viele neue Ideen für meinen Alltag mitgenommen.",
+    "questions": [
+      { "type": "mcq", "q": "Worum ging es im Workshop?", "options": ["Zeitmanagement","Kochen","Fotografie"], "answer": 0 },
+      { "type": "mcq", "q": "Welche Methode wurde vorgestellt?", "options": ["To-Do-Listen","Yoga","Malen"], "answer": 0 },
+      { "type": "mcq", "q": "Hat er Übungen gemacht?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+      { "type": "mcq", "q": "Hilft es, produktiver zu sein?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+      { "type": "mcq", "q": "Will er die Methoden langfristig anwenden?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 }
+    ]
+  },
+  {
+    "text": "Vor einigen Monaten habe ich begonnen, mich intensiver mit nachhaltigem Leben zu beschäftigen. Ich achte darauf, Plastik zu vermeiden und Müll zu trennen. Außerdem versuche ich, lokale und saisonale Produkte zu kaufen. Ich nutze öffentliche Verkehrsmittel oder Fahrrad, um CO2 zu sparen. Zu Hause habe ich Energiesparlampen installiert und achte auf den Wasserverbrauch. Ich informiere mich über umweltfreundliche Produkte und Herstellungsprozesse. Es ist beeindruckend zu sehen, wie kleine Veränderungen einen großen Einfluss auf die Umwelt haben können. Ich habe Freunde motiviert, ebenfalls nachhaltiger zu leben. Zusätzlich habe ich begonnen, Kleidung und Haushaltsgegenstände zu recyceln. Nachhaltigkeit ist ein wichtiger Bestandteil meines Alltags geworden.",
+    "questions": [
+      { "type": "mcq", "q": "Worauf achtet der Autor?", "options": ["Nachhaltigkeit","Sport","Mode"], "answer": 0 },
+      { "type": "mcq", "q": "Welche Verkehrsmittel nutzt er?", "options": ["Auto","Öffentliche Verkehrsmittel und Fahrrad","Motorrad"], "answer": 1 },
+      { "type": "mcq", "q": "Hat er Freunde motiviert?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+      { "type": "mcq", "q": "Recycelt er Kleidung?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+      { "type": "mcq", "q": "Ist Nachhaltigkeit wichtig im Alltag?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 }
+    ]
+  },
+  {
+    "text": "Ich habe begonnen, mich für Astronomie zu interessieren und ein Teleskop zu kaufen. Ich beobachte Sterne, Planeten und den Mond. Ich lerne Sternbilder zu erkennen und die Bewegungen der Himmelskörper zu verstehen. Jede Nacht notiere ich Beobachtungen in meinem Astronomietagebuch. Manchmal treffe ich mich mit einer Gruppe von Hobby-Astronomen, um Erfahrungen auszutauschen. Ich habe auch Bücher und Online-Ressourcen genutzt, um mein Wissen zu erweitern. Die Beobachtungen sind faszinierend und inspirieren mich, mehr über das Universum zu lernen. Ich plane, an einer Sternwarte an einer öffentlichen Veranstaltung teilzunehmen. Die Erfahrung hat mein Interesse an Wissenschaft und Natur vertieft. Astronomie ist zu einem spannenden Hobby für mich geworden.",
+    "questions": [
+      { "type": "mcq", "q": "Wofür interessiert sich der Autor?", "options": ["Astronomie","Fotografie","Musik"], "answer": 0 },
+      { "type": "mcq", "q": "Was beobachtet er?", "options": ["Sterne, Planeten, Mond","Tiere","Pflanzen"], "answer": 0 },
+      { "type": "mcq", "q": "Führt er ein Tagebuch?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+      { "type": "mcq", "q": "Trifft er sich mit anderen Hobby-Astronomen?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+      { "type": "mcq", "q": "Plant er den Besuch einer Sternwarte?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 }
+    ]
+  }
+]
+
+    
+    
+
+    
+  ]
+}

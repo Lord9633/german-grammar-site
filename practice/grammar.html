@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grammar Quiz – 50 Questions</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    body { background: linear-gradient(135deg, #141e30, #243b55); color: #fff; text-align: center; padding: 20px; }
+    #quiz-container { max-width: 800px; margin: 0 auto; background: rgba(255,255,255,0.05); padding: 20px; border-radius: 8px; }
+    .question { font-size: 1.2em; margin: 20px 0 10px; }
+    .options { display: flex; flex-direction: column; align-items: flex-start; margin: 10px 0; }
+    .options label { background: rgba(255,255,255,0.1); margin: 5px 0; padding: 8px 12px; border-radius: 6px; cursor: pointer; width: 100%; }
+    #next-btn { padding: 10px 20px; background: #ffdd59; color: #000; font-weight: bold; border: none; border-radius: 6px; cursor: pointer; margin-top: 20px; }
+    #result { font-size: 1.3em; margin-top: 30px; font-weight: bold; }
+  </style>
+</head>
+<body>
+
+  <h1>📝 Grammar Quiz (50 Questions)</h1>
+  <div id="timer">⏳ Time left: 15:00</div>
+  <div id="progress">Question 1 of 50</div>
+
+  <div id="quiz-container">
+    <div id="question" class="question"></div>
+    <div id="options" class="options"></div>
+    <button id="next-btn">Next</button>
+    <div id="result"></div>
+  </div>
+
+  <script src="js/grammar.js"></script>
+</body>
+</html>

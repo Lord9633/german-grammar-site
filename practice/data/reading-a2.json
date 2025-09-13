@@ -1,0 +1,175 @@
+{
+  "level": "a2",
+  "paragraphs": [
+    {
+      "text": "Anna wohnt in Hamburg. Sie arbeitet in einer Buchhandlung und verkauft Bücher. Am Abend liest sie gern Romane.",
+      "questions": [
+        { "type": "mcq", "q": "Wo wohnt Anna?", "options": ["Berlin","Hamburg","München"], "answer": 1 },
+        { "type": "mcq", "q": "Wo arbeitet sie?", "options": ["in der Schule","in einer Buchhandlung","im Krankenhaus"], "answer": 1 },
+        { "type": "mcq", "q": "Was verkauft sie?", "options": ["Zeitschriften","Bücher","Kleider"], "answer": 1 },
+        { "type": "mcq", "q": "Was macht sie gern am Abend?", "options": ["Kochen","Romane lesen","Fahrrad fahren"], "answer": 1 },
+        { "type": "mcq", "q": "Ist sie Lehrerin?", "options": ["Ja","Nein","Vielleicht"], "answer": 1 }
+      ]
+    },
+    {
+      "text": "Peter fährt jeden Morgen mit dem Bus zur Arbeit. Er arbeitet als Mechaniker in einer großen Werkstatt.",
+      "questions": [
+        { "type": "mcq", "q": "Wie fährt Peter zur Arbeit?", "options": ["mit dem Auto","mit dem Bus","zu Fuß"], "answer": 1 },
+        { "type": "mcq", "q": "Was ist sein Beruf?", "options": ["Lehrer","Mechaniker","Bäcker"], "answer": 1 },
+        { "type": "mcq", "q": "Fährt er abends auch Bus?", "options": ["Nicht erwähnt","Ja","Nein"], "answer": 0 },
+        { "type": "mcq", "q": "Arbeitet er in einer kleinen Werkstatt?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 1 },
+        { "type": "mcq", "q": "Geht er zu Fuß zur Arbeit?", "options": ["Ja","Nein","Vielleicht"], "answer": 1 }
+      ]
+    },
+    {
+      "text": "Maria ist letzte Woche nach Berlin gereist. Sie hat viele Sehenswürdigkeiten besichtigt und Fotos gemacht.",
+      "questions": [
+        { "type": "mcq", "q": "Wann ist Maria nach Berlin gereist?", "options": ["letzte Woche","gestern","heute"], "answer": 0 },
+        { "type": "mcq", "q": "Was hat sie gemacht?", "options": ["Einkaufen","Sehenswürdigkeiten besichtigt","gearbeitet"], "answer": 1 },
+        { "type": "mcq", "q": "Hat sie Fotos gemacht?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "Ist sie in München gewesen?", "options": ["Ja","Nein","Vielleicht"], "answer": 1 },
+        { "type": "mcq", "q": "War die Reise lang?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 2 }
+      ]
+    },
+    {
+      "text": "Im Supermarkt gibt es viele frische Lebensmittel. Peter kauft Gemüse, Obst und Fleisch für die Woche.",
+      "questions": [
+        { "type": "mcq", "q": "Wo kauft Peter ein?", "options": ["im Supermarkt","auf dem Markt","in der Bäckerei"], "answer": 0 },
+        { "type": "mcq", "q": "Was kauft er?", "options": ["Getränke","Gemüse, Obst und Fleisch","Kleidung"], "answer": 1 },
+        { "type": "mcq", "q": "Sind die Lebensmittel frisch?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "Kauft er nur Obst?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 1 },
+        { "type": "mcq", "q": "Geht er jeden Tag einkaufen?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 2 }
+      ]
+    },
+    {
+      "text": "Lisa mag Sport. Jeden Morgen läuft sie im Park und am Wochenende spielt sie Tennis mit Freunden.",
+      "questions": [
+        { "type": "mcq", "q": "Was macht Lisa jeden Morgen?", "options": ["Tennis spielen","laufen","Radfahren"], "answer": 1 },
+        { "type": "mcq", "q": "Spielt sie Tennis mit Freunden?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "Mag sie Sport?", "options": ["Ja","Nein","Vielleicht"], "answer": 0 },
+        { "type": "mcq", "q": "Läuft sie abends?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 2 },
+        { "type": "mcq", "q": "Macht sie Sport allein?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 2 }
+      ]
+    },
+    {
+      "text": "Am Sonntag besucht Thomas seine Großeltern. Sie trinken Kaffee zusammen und unterhalten sich über die Familie.",
+      "questions": [
+        { "type": "mcq", "q": "Wann besucht Thomas seine Großeltern?", "options": ["am Samstag","am Sonntag","am Freitag"], "answer": 1 },
+        { "type": "mcq", "q": "Was trinken sie zusammen?", "options": ["Tee","Kaffee","Saft"], "answer": 1 },
+        { "type": "mcq", "q": "Unterhalten sie sich?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "Geht Thomas allein?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 2 },
+        { "type": "mcq", "q": "Reden sie über Arbeit?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 2 }
+      ]
+    },
+    {
+      "text": "Die Kinder gehen jeden Tag zur Schule. Sie lernen Deutsch, Englisch und Mathematik. Nach der Schule spielen sie im Garten.",
+      "questions": [
+        { "type": "mcq", "q": "Lernen die Kinder Deutsch?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "Gehen die Kinder zur Schule?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "Spielen sie nach der Schule?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "Lernen sie Musik?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 2 },
+        { "type": "mcq", "q": "Gehen sie einmal pro Woche zur Schule?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 1 }
+      ]
+    },
+    {
+      "text": "Im Sommer fährt Anna gern ans Meer. Sie schwimmt, liest Bücher und sammelt Muscheln am Strand.",
+      "questions": [
+        { "type": "mcq", "q": "Fährt Anna ans Meer?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "Was macht sie am Strand?", "options": ["schwimmen, lesen, Muscheln sammeln","Radfahren","tanzen"], "answer": 0 },
+        { "type": "mcq", "q": "Geht sie im Winter ans Meer?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 1 },
+        { "type": "mcq", "q": "Sammelt sie Steine?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 1 },
+        { "type": "mcq", "q": "Liest sie Bücher?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 }
+      ]
+    },
+    {
+      "text": "Max kann gut kochen. Er bereitet oft Pasta, Salate und Suppen für seine Familie zu.",
+      "questions": [
+        { "type": "mcq", "q": "Kann Max kochen?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "Was kocht er?", "options": ["Pizza, Kuchen, Fisch","Pasta, Salate, Suppen","Nudeln, Fleisch, Obst"], "answer": 1 },
+        { "type": "mcq", "q": "Kocht er für seine Freunde?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 2 },
+        { "type": "mcq", "q": "Bereitet er oft Essen zu?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "Mag er kochen?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 2 }
+      ]
+    },
+    {
+      "text": "Am Abend sieht Julia gern Filme im Fernsehen. Manchmal schaut sie auch Serien auf ihrem Laptop.",
+      "questions": [
+        { "type": "mcq", "q": "Was sieht Julia gern?", "options": ["Filme","Bücher","Musik"], "answer": 0 },
+        { "type": "mcq", "q": "Schaut sie Serien?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "Benutzt sie einen Laptop?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "Schaut sie Sport?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 1 },
+        { "type": "mcq", "q": "Sieht sie abends Filme?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 }
+      ]
+    },
+    {
+      "text": "Im Winter fährt Thomas gern Ski. Er geht oft in die Berge und genießt den Schnee.",
+      "questions": [
+        { "type": "mcq", "q": "Fährt Thomas Ski?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "Wann fährt er Ski?", "options": ["im Sommer","im Winter","im Frühling"], "answer": 1 },
+        { "type": "mcq", "q": "Geht er oft in die Berge?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "Genießt er den Schnee?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "Fährt er im Sommer Ski?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 1 }
+      ]
+    },
+    {
+      "text": "Clara kauft jeden Samstag auf dem Markt Obst und Gemüse. Sie spricht gerne mit den Verkäufern.",
+      "questions": [
+        { "type": "mcq", "q": "Wann geht Clara einkaufen?", "options": ["jeden Samstag","jeden Tag","jeden Freitag"], "answer": 0 },
+        { "type": "mcq", "q": "Wo kauft sie ein?", "options": ["im Supermarkt","auf dem Markt","in der Bäckerei"], "answer": 1 },
+        { "type": "mcq", "q": "Kauft sie Fleisch?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 2 },
+        { "type": "mcq", "q": "Spricht sie mit den Verkäufern?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "Kauft sie Kleidung?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 1 }
+      ]
+    },
+    {
+      "text": "Am Abend geht Paul spazieren. Er hört Musik und beobachtet die Vögel im Park.",
+      "questions": [
+        { "type": "mcq", "q": "Geht Paul spazieren?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "Was hört er?", "options": ["Radio","Musik","Nichts"], "answer": 1 },
+        { "type": "mcq", "q": "Beobachtet er die Tiere?", "options": ["Ja, die Vögel","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "Geht er morgens spazieren?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 1 },
+        { "type": "mcq", "q": "Beobachtet er Hunde?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 1 }
+      ]
+    },
+    {
+      "text": "Sabine besucht oft ihre Freunde. Sie spielt Karten, trinkt Tee und unterhält sich lange.",
+      "questions": [
+        { "type": "mcq", "q": "Besucht Sabine ihre Freunde?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "Was spielt sie?", "options": ["Schach","Karten","Fußball"], "answer": 1 },
+        { "type": "mcq", "q": "Trinkt sie Kaffee?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 2 },
+        { "type": "mcq", "q": "Unterhält sie sich lange?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "Geht sie allein?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 2 }
+      ]
+    },
+    {
+      "text": "Im Sommer grillt Familie Meier im Garten. Sie essen Würstchen, Salat und trinken Limonade.",
+      "questions": [
+        { "type": "mcq", "q": "Wann grillt Familie Meier?", "options": ["im Winter","im Sommer","im Frühling"], "answer": 1 },
+        { "type": "mcq", "q": "Wo grillen sie?", "options": ["im Garten","im Park","auf dem Balkon"], "answer": 0 },
+        { "type": "mcq", "q": "Was essen sie?", "options": ["Pizza","Würstchen, Salat","Fisch"], "answer": 1 },
+        { "type": "mcq", "q": "Trinken sie Saft?", "options": ["Ja","Nein","Limonade"], "answer": 2 },
+        { "type": "mcq", "q": "Grillen sie drinnen?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 1 }
+      ]
+    },
+    {
+      "text": "Jeden Morgen geht Herr Müller joggen. Danach frühstückt er und liest die Zeitung.",
+      "questions": [
+        { "type": "mcq", "q": "Geht Herr Müller joggen?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "Was macht er nach dem Joggen?", "options": ["Frühstücken und Zeitung lesen","Arbeiten","Schlafen"], "answer": 0 },
+        { "type": "mcq", "q": "Liest er Bücher?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 2 },
+        { "type": "mcq", "q": "Geht er abends joggen?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 1 },
+        { "type": "mcq", "q": "Frühstückt er?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 }
+      ]
+    },
+    {
+      "text": "Am Nachmittag besucht Lena ihre Tante. Sie trinken Kaffee, essen Kuchen und reden über alte Zeiten.",
+      "questions": [
+        { "type": "mcq", "q": "Besucht Lena ihre Tante?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "Was trinken sie?", "options": ["Tee","Kaffee","Saft"], "answer": 1 },
+        { "type": "mcq", "q": "Essen sie Kuchen?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "Reden sie über die Arbeit?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 2 },
+        { "type": "mcq", "q": "Ist es am Morgen?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 1 }
+      ]
+    }
+  ]
+}

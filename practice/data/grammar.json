@@ -1,0 +1,67 @@
+[
+  { "q": "Which is correct? ___ Hund ist süß.", "options": ["Der", "Die", "Das"], "answer": 0 },
+  { "q": "Choose the right article: ___ Apfel ist rot.", "options": ["Der", "Die", "Das"], "answer": 0 },
+  { "q": "Choose the correct article: ___ Auto ist schnell.", "options": ["Der", "Die", "Das"], "answer": 2 },
+
+  { "q": "Ich ___ in Berlin.", "options": ["wohne", "wohnt", "wohnst"], "answer": 0 },
+  { "q": "Er ___ Fußball.", "options": ["spielen", "spielst", "spielt"], "answer": 2 },
+  { "q": "Wir ___ Deutsch.", "options": ["lerne", "lernt", "lernen"], "answer": 2 },
+
+  { "q": "Das ist ___ Auto.", "options": ["kein", "nicht", "keine"], "answer": 0 },
+  { "q": "Ich habe ___ Zeit.", "options": ["kein", "keine", "nicht"], "answer": 0 },
+  { "q": "Das ist ___ richtig.", "options": ["kein", "nicht", "keine"], "answer": 1 },
+
+  { "q": "Ich sehe ___ Mann.", "options": ["der", "den", "dem"], "answer": 1 },
+  { "q": "Das ist der Freund ___ Frau.", "options": ["die", "der", "den"], "answer": 1 },
+  { "q": "Er gibt ___ Kind ein Geschenk.", "options": ["das", "dem", "den"], "answer": 1 },
+
+  { "q": "___ du morgen kommen?", "options": ["Kannst", "Kann", "Können"], "answer": 0 },
+  { "q": "Ich gehe ins Kino, ___ es regnet.", "options": ["obwohl", "weil", "wenn"], "answer": 0 },
+  { "q": "Er bleibt zu Hause, ___ er krank ist.", "options": ["obwohl", "weil", "denn"], "answer": 1 },
+
+  { "q": "Ich ___ heute arbeiten.", "options": ["müssen", "muss", "musst"], "answer": 1 },
+  { "q": "Wir ___ Deutsch sprechen.", "options": ["kann", "können", "könnt"], "answer": 1 },
+  { "q": "Sie ___ nicht schwimmen.", "options": ["können", "kann", "könnt"], "answer": 0 },
+
+  { "q": "Ich ___ gestern Fußball gespielt.", "options": ["habe", "bin", "hat"], "answer": 0 },
+  { "q": "Wir ___ nach Berlin gefahren.", "options": ["sind", "haben", "wart"], "answer": 0 },
+  { "q": "Er ___ das Buch gelesen.", "options": ["habe", "hat", "ist"], "answer": 1 },
+
+  { "q": "Früher ___ ich in Köln.", "options": ["wohne", "wohnte", "gewohnt"], "answer": 1 },
+  { "q": "Sie ___ sehr nett.", "options": ["war", "ist", "waren"], "answer": 0 },
+  { "q": "Wir ___ gestern im Kino.", "options": ["sind", "waren", "war"], "answer": 1 },
+
+  { "q": "Ich weiß, dass er morgen ___ .", "options": ["kommt", "kommen", "kommt er"], "answer": 0 },
+  { "q": "Er sagt, dass sie viel ___ .", "options": ["lernt", "lernen", "lernt sie"], "answer": 0 },
+  { "q": "Wir bleiben hier, weil es ___ .", "options": ["regnet", "regnen", "es regnet"], "answer": 0 },
+
+  { "q": "Ich freue ___ auf das Wochenende.", "options": ["mir", "mich", "dich"], "answer": 1 },
+  { "q": "Er interessiert sich ___ Musik.", "options": ["für", "an", "auf"], "answer": 0 },
+  { "q": "Wir treffen ___ um 8 Uhr.", "options": ["uns", "euch", "sie"], "answer": 0 },
+
+  { "q": "Wenn ich Zeit ___, würde ich reisen.", "options": ["hätte", "habe", "hatte"], "answer": 0 },
+  { "q": "Ich ___ gern nach Deutschland fahren.", "options": ["würde", "werde", "wurde"], "answer": 0 },
+  { "q": "Er ___ dir helfen, wenn er könnte.", "options": ["würde", "wurde", "wird"], "answer": 0 },
+
+  { "q": "Das Haus ___ renoviert.", "options": ["wird", "werden", "wurden"], "answer": 0 },
+  { "q": "Der Brief ___ gestern geschrieben.", "options": ["wurde", "werden", "war"], "answer": 0 },
+  { "q": "Die Regeln ___ beachtet werden.", "options": ["müssen", "sollen", "dürfen"], "answer": 0 },
+
+  { "q": "Er tat so, ___ er krank wäre.", "options": ["als ob", "wie wenn", "obwohl"], "answer": 0 },
+  { "q": "Wir warten, ___ der Bus kommt.", "options": ["bis", "wenn", "falls"], "answer": 0 },
+  { "q": "Er hat das Buch gelesen, ___ er krank war.", "options": ["obwohl", "weil", "wenn"], "answer": 0 },
+
+  { "q": "Das ist der Mann, ___ das Auto gehört.", "options": ["dem", "den", "der"], "answer": 0 },
+  { "q": "Sie spricht besser Deutsch, ___ sie in Berlin lebt.", "options": ["seitdem", "weil", "da"], "answer": 1 },
+  { "q": "Ich bleibe hier, ___ du mich brauchst.", "options": ["falls", "obwohl", "wenn"], "answer": 2 }
+  ,
+{ "q": "Er spricht, als ___ er alles wüsste.", "options": ["ob", "wenn", "obwohl"], "answer": 0 },
+{ "q": "Das ist die Frau, ohne ___ er nicht leben kann.", "options": ["die", "deren", "die er"], "answer": 1 },
+{ "q": "Hättest du mehr gelernt, ___ du die Prüfung bestanden.", "options": ["würdest", "hättest", "wärst"], "answer": 1 },
+{ "q": "Es wird erwartet, dass die neuen Regeln bald ___ .", "options": ["gelten", "gelten werden", "gegilt"], "answer": 1 },
+{ "q": "Je länger er wartet, ___ ungeduldiger wird er.", "options": ["desto", "umso", "weil"], "answer": 0 },
+{ "q": "Sie fragte, ___ er morgen mitkommen könne.", "options": ["ob", "wenn", "wie"], "answer": 0 },
+{ "q": "Das Auto, ___ vor der Tür steht, gehört meinem Bruder.", "options": ["das", "welches", "dem"], "answer": 0 },
+{ "q": "Er tat so, ___ er krank sei.", "options": ["als ob", "obwohl", "da"], "answer": 0 }
+
+]

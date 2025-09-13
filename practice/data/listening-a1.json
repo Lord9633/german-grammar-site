@@ -1,0 +1,26 @@
+{
+  "level":"a1",
+  "paragraphs":[
+    {
+      "text":"",
+      "questions":[
+        {"type":"mcq","q":"Worum geht der Text?","options":["Essen","Reisen","Studium","Sport"],"answer":2},
+        {"type":"mcq","q":"Welche Stadt wird erwähnt?","options":["München","Berlin","Hamburg","Frankfurt"],"answer":1},
+        {"type":"mcq","q":"Wie kommt die Person zur Uni?","options":["Auto","Fahrrad","Bus","Zug"],"answer":1},
+        {"type":"mcq","q":"Was macht die Person nachher?","options":["schlafen","Kaffee trinken","arbeiten","laufen"],"answer":1},
+        {"type":"mcq","q":"Wieviele Tage bleibt die Person?","options":["1","2","3","4"],"answer":1}
+      ]
+    },
+    {
+      "text":"",
+      "questions":[
+        {"type":"mcq","q":"Wer wird besucht?","options":["Freunde","Eltern","Bruder","Tante"],"answer":1},
+        {"type":"mcq","q":"Mit welchem Verkehrsmittel?","options":["Auto","Bus","Zug","Fahrrad"],"answer":2},
+        {"type":"mcq","q":"Was passiert nach den Tagen?","options":["bleiben","zurückkehren","schlafen","arbeiten"],"answer":1},
+        {"type":"mcq","q":"Warum bereitet sich die Person vor?","options":["Prüfung","Feier","Reise","Arbeit"],"answer":0},
+        {"type":"mcq","q":"Ist die Person Student/in?","options":["Ja","Nein","Vielleicht","Nicht erwähnt"],"answer":0}
+      ]
+    }
+  ],
+  "audio":["a1-listen-1.mp3","a1-listen-2.mp3"]
+}

@@ -1,0 +1,107 @@
+{
+  "level": "a1",
+  "paragraphs": [
+    {
+      "text": "Mein Name ist Anna. Ich komme aus Berlin und studiere an der Universität. In meiner Freizeit spiele ich Gitarre.",
+      "questions": [
+        { "type": "mcq", "q": "Wie heißt die Studentin?", "options": ["Anna", "Maria", "Petra"], "answer": 0 },
+        { "type": "mcq", "q": "Woher kommt sie?", "options": ["München", "Berlin", "Köln"], "answer": 1 },
+        { "type": "mcq", "q": "Was studiert sie?", "options": ["nicht gesagt", "Mathematik", "an der Universität"], "answer": 2 },
+        { "type": "mcq", "q": "Was macht sie in der Freizeit?", "options": ["Kochen", "Gitarre spielen", "Schwimmen"], "answer": 1 },
+        { "type": "mcq", "q": "Ist sie Studentin?", "options": ["Ja", "Nein", "Vielleicht"], "answer": 0 }
+      ]
+    },
+    {
+      "text": "Peter wohnt in München. Er arbeitet als Ingenieur und fährt gern Fahrrad. Am Wochenende liest er Bücher.",
+      "questions": [
+        { "type": "mcq", "q": "In welcher Stadt wohnt Peter?", "options": ["München", "Berlin", "Hamburg"], "answer": 0 },
+        { "type": "mcq", "q": "Was ist Peters Beruf?", "options": ["Ingenieur", "Lehrer", "Arzt"], "answer": 0 },
+        { "type": "mcq", "q": "Was macht er gern?", "options": ["Fahrrad fahren", "Kochen", "Singen"], "answer": 0 },
+        { "type": "mcq", "q": "Was liest er am Wochenende?", "options": ["Zeitungen", "Bücher", "Nichts"], "answer": 1 },
+        { "type": "mcq", "q": "Arbeitet er am Wochenende?", "options": ["Ja", "Nein", "Nicht erwähnt"], "answer": 2 }
+      ]
+    },
+    {
+      "text": "Ich heiße Maria. Ich bin 20 Jahre alt und habe eine Schwester. Wir wohnen in Köln.",
+      "questions": [
+        { "type": "mcq", "q": "Wie alt ist Maria?", "options": ["18", "20", "22"], "answer": 1 },
+        { "type": "mcq", "q": "Hat sie Geschwister?", "options": ["Ja", "Nein", "Nur Brüder"], "answer": 0 },
+        { "type": "mcq", "q": "In welcher Stadt wohnen sie?", "options": ["Köln", "Frankfurt", "Stuttgart"], "answer": 0 },
+        { "type": "mcq", "q": "Ist sie Studentin?", "options": ["Nicht erwähnt", "Ja", "Nein"], "answer": 0 },
+        { "type": "mcq", "q": "Wie viele Schwestern hat sie?", "options": ["Eine", "Zwei", "Keine"], "answer": 0 }
+      ]
+    },
+    {
+      "text": "Thomas kauft im Supermarkt ein. Er braucht Brot, Milch und Äpfel. Er bezahlt an der Kasse.",
+      "questions": [
+        { "type": "mcq", "q": "Wo kauft Thomas ein?", "options": ["Bäckerei", "Supermarkt", "Kino"], "answer": 1 },
+        { "type": "mcq", "q": "Was kauft er?", "options": ["Brot, Milch, Äpfel", "Fleisch", "Käse"], "answer": 0 },
+        { "type": "mcq", "q": "Wo bezahlt er?", "options": ["an der Kasse", "draußen", "bei der Tür"], "answer": 0 },
+        { "type": "mcq", "q": "Braucht er Tomaten?", "options": ["Ja", "Nein", "Nicht erwähnt"], "answer": 2 },
+        { "type": "mcq", "q": "Kauft er Gemüse?", "options": ["Ja", "Nein", "Nicht erwähnt"], "answer": 2 }
+      ]
+    },
+    {
+      "text": "Die Schule beginnt um 8 Uhr. Die Kinder lernen Mathe, Deutsch und Sport. Die Pause ist um 10 Uhr.",
+      "questions": [
+        { "type": "mcq", "q": "Wann beginnt die Schule?", "options": ["7 Uhr","8 Uhr","9 Uhr"], "answer": 1 },
+        { "type": "mcq", "q": "Welche Fächer lernen die Kinder?", "options": ["Mathe, Deutsch, Sport", "Musik, Kunst", "Chemie"], "answer": 0 },
+        { "type": "mcq", "q": "Wann ist die Pause?", "options": ["9 Uhr","10 Uhr","11 Uhr"], "answer": 1 },
+        { "type": "mcq", "q": "Ist Mathe ein Fach?", "options": ["Ja","Nein","Vielleicht"], "answer": 0 },
+        { "type": "mcq", "q": "Lernen sie Englisch?", "options": ["Nicht erwähnt","Ja","Nein"], "answer": 0 }
+      ]
+    },
+    {
+      "text": "Lisa geht ins Kino. Sie schaut einen neuen Film und isst Popcorn.",
+      "questions": [
+        { "type": "mcq", "q": "Wohin geht Lisa?", "options": ["Kino","Theater","Museum"], "answer": 0 },
+        { "type": "mcq", "q": "Was macht sie im Kino?", "options": ["träumt","schaut einen Film","tanzt"], "answer": 1 },
+        { "type": "mcq", "q": "Was isst sie?", "options": ["Pizza","Popcorn","Salat"], "answer": 1 },
+        { "type": "mcq", "q": "Ist der Film alt?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 2 },
+        { "type": "mcq", "q": "Geht sie allein?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 2 }
+      ]
+    },
+    {
+      "text": "Im Park spielen Kinder. Es gibt viele Blumen und Bäume. Die Sonne scheint.",
+      "questions": [
+        { "type": "mcq", "q": "Wo spielen die Kinder?", "options": ["Park","Haus","Schule"], "answer": 0 },
+        { "type": "mcq", "q": "Was gibt es im Park?", "options": ["Bäume und Blumen","Autos","Berge"], "answer": 0 },
+        { "type": "mcq", "q": "Scheint die Sonne?", "options": ["Ja","Nein","Vielleicht"], "answer": 0 },
+        { "type": "mcq", "q": "Spielen die Kinder drinnen?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 1 },
+        { "type": "mcq", "q": "Sind dort Blumen?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 }
+      ]
+    },
+    {
+      "text": "Der Hund ist klein und freundlich. Er mag es zu spielen und zu laufen.",
+      "questions": [
+        { "type": "mcq", "q": "Wie ist der Hund?", "options": ["groß","klein","dick"], "answer": 1 },
+        { "type": "mcq", "q": "Ist er freundlich?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "Was macht er gern?", "options": ["spielen und laufen","schlafen","essen"], "answer": 0 },
+        { "type": "mcq", "q": "Mag er Wasser?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 2 },
+        { "type": "mcq", "q": "Ist der Hund groß?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 1 }
+      ]
+    },
+    {
+      "text": "Am Morgen trinkt er Kaffee und liest die Zeitung. Danach geht er zur Arbeit.",
+      "questions": [
+        { "type": "mcq", "q": "Was trinkt er am Morgen?", "options": ["Tee","Saft","Kaffee"], "answer": 2 },
+        { "type": "mcq", "q": "Was liest er?", "options": ["Bücher","Zeitung","Webseiten"], "answer": 1 },
+        { "type": "mcq", "q": "Was macht er danach?", "options": ["geht zur Arbeit","geht schlafen","kocht"], "answer": 0 },
+        { "type": "mcq", "q": "Ist das Frühstück groß?", "options": ["Nein","Ja","Nicht erwähnt"], "answer": 2 },
+        { "type": "mcq", "q": "Trinkt er Milch?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 2 }
+      ]
+    },
+    {
+      "text": "Die Bäckerei verkauft frische Brötchen. Viele Kunden kaufen am Morgen Brot.",
+      "questions": [
+        { "type": "mcq", "q": "Was verkauft die Bäckerei?", "options": ["Bücher","Brötchen","Kleidung"], "answer": 1 },
+        { "type": "mcq", "q": "Wann kaufen viele Kunden?", "options": ["Abends","Am Morgen","Mittags"], "answer": 1 },
+        { "type": "mcq", "q": "Ist das Brot frisch?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 },
+        { "type": "mcq", "q": "Kaufen die Kunden Kleidung?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 1 },
+        { "type": "mcq", "q": "Gibt es viele Kunden?", "options": ["Ja","Nein","Nicht erwähnt"], "answer": 0 }
+      ]
+    }
+  ]
+}
+
+

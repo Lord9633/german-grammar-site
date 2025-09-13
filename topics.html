@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A1 German Topics</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+
+    .topics-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    .topic-button {
+      padding: 15px 25px;
+      font-size: 16px;
+      border: none;
+      border-radius: 8px;
+      background-color: #4CAF50;
+      color: white;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      width: 250px;
+      text-align: center;
+    }
+
+    .topic-button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <h1>A1 German Topics (Beginners)</h1>
+
+  <div class="topics-container">
+  <button class="topic-button" onclick="location.href='A1/german-alphabet.html'">German alphabet</button>
+  <button class="topic-button" onclick="location.href='A1/basic-greetings.html'">Basic greetings & introductions (sich vorstellen)</button>
+  <button class="topic-button" onclick="location.href='A1/pronunciation-keys.html'">Pronunciation keys / notes</button>
+  <button class="topic-button" onclick="location.href='A1/numbers.html'">Numbers (Zahlen)</button>
+  <button class="topic-button" onclick="location.href='A1/days-months-seasons.html'">Days, Months, Seasons</button>
+  <button class="topic-button" onclick="location.href='A1/colours.html'">Colours</button>
+  <button class="topic-button" onclick="location.href='A1/family-members.html'">Family members</button>
+  <button class="topic-button" onclick="location.href='A1/fruits-vegetables-animals.html'">Fruits, Vegetables, Animals</button>
+  <button class="topic-button" onclick="location.href='A1/weather-expressions.html'">Weather expressions</button>
+  <button class="topic-button" onclick="location.href='A1/w-fragen.html'">W-Fragen & Tageszeiten</button>
+  <button class="topic-button" onclick="location.href='A1/nominative-case.html'">Nominative case</button>
+  <button class="topic-button" onclick="location.href='A1/verb-conjugation.html'">Verb conjugation: present tense</button>
+  <button class="topic-button" onclick="location.href='A1/negation.html'">Negation: nicht / kein</button>
+  <button class="topic-button" onclick="location.href='A1/regular-irregular-verbs.html'">Regular & Irregular verbs</button>
+  <button class="topic-button" onclick="location.href='A1/verbs-with-nominative.html'">Verbs with nominative</button>
+  <button class="topic-button" onclick="location.href='A1/separable-inseparable-verbs.html'">Separable & inseparable verbs</button>
+  <button class="topic-button" onclick="location.href='A1/akkusative-case.html'">Akkusative case</button>
+  <button class="topic-button" onclick="location.href='A1/time.html'">Time: telling time</button>
+  <button class="topic-button" onclick="location.href='A1/dative-case.html'">Dative case</button>
+  <button class="topic-button" onclick="location.href='A1/wfrage-vs-yesno.html'">W-Frage vs Ja/Nein-Frage</button>
+  <button class="topic-button" onclick="location.href='A1/perfekt.html'">Perfekt (Partizip II)</button>
+  <button class="topic-button" onclick="location.href='A1/praeteritum.html'">Präteritum basics</button>
+  <button class="topic-button" onclick="location.href='A1/modal-verbs.html'">Modal verbs</button>
+  <button class="topic-button" onclick="location.href='A1/basic-adjectives.html'">Basic adjectives</button>
+</div>
+<div class="button-container">
+  <a class="button" href="../levels.html">Back to Levels</a> <!-- Existing -->
+  
+  
+</div>
+
+  <script>
+    function goToArticle(topic) {
+      // Pass topic as a query parameter to article.html
+      window.location.href = `article.html?topic=${encodeURIComponent(topic)}`;
+    }
+  </script>
+</body>
+</html>
+

@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Reading Practice</title>
+<link rel="stylesheet" href="css/practice.css">
+</head>
+<body>
+  <main style="max-width:900px;margin:28px auto;padding:16px;color:#fff">
+    <div id="content"></div>
+  </main>
+
+<script>
+/* lesson.html - Reading practice only */
+
+// helper to read query param
+function qp(name){ const u=new URL(location.href); return u.searchParams.get(name); }
+const level = qp('level'); // if null, show level selection
+
+const levels = ['a1','a2','b1','b2'];
+const content = document.getElementById('content');
+
+// UI: choose level if none is given
+function showLevelSelection(){
+  const el = document.createElement('div');
+  el.innerHTML = `<h1 style="color:#ffd54a">Reading — Choose level</h1>`;
+  const grid = document.createElement('div');
+  grid.style.display='grid';
+  grid.style.gridTemplateColumns='repeat(auto-fit,minmax(160px,1fr))';
+  grid.style.gap='12px';
+  grid.style.marginTop='18px';
+  levels.forEach(l=>{
+    const a = document.createElement('a');
+    a.href = `lesson.html?level=${l}`;
+    a.textContent = l.toUpperCase();
+    a.style.padding='18px'; a.style.display='block'; a.style.textAlign='center';
+    a.style.borderRadius='8px';
+    a.style.background='linear-gradient(135deg,#1f2937,#111827)';
+    a.style.textDecoration='none'; a.style.fontWeight='700'; a.style.color='#fff';
+    grid.appendChild(a);
+  });
+  el.appendChild(grid);
+  el.innerHTML += `<p style="margin-top:18px;color:#cbd5e1">Click a level to open 2 short paragraphs and 5 multiple-choice questions per paragraph.</p>`;
+  content.appendChild(el);
+}
+
+if(!level){ 
+  showLevelSelection(); 
+} else {
+  const dataPath = `data/reading-${level}.json`;
+  fetch(dataPath).then(r=>{
+    if(!r.ok) throw new Error('Could not load ' + dataPath + ' — run Live Server or check path.');
+    return r.json();
+  }).then(data=>{
+    renderLesson(data);
+  }).catch(err=>{
+    content.innerHTML = `<div style="color:#ffb4b4"><strong>Error:</strong> ${err.message}</div>`;
+  });
+}
+
+// =============================================================================
+// Render function - shows 2 random paragraphs and their shuffled questions/options
+// =============================================================================
+function renderLesson(data){
+  content.innerHTML = `<a href="lesson.html" style="color:#cbd5e1">← Back to levels</a>`;
+  const h = document.createElement('h1');
+  h.textContent = `READING — Level ${String(data.level || level).toUpperCase()}`;
+  h.style.color='#ffd54a';
+  content.appendChild(h);
+
+  function shuffle(arr){ return arr.sort(()=>Math.random()-0.5); }
+
+  // choose 2 random paragraphs from pool
+  const pool = Array.isArray(data.paragraphs) ? data.paragraphs : [];
+  const selectedParas = shuffle([...pool]).slice(0, 2);
+
+  selectedParas.forEach((p, pi)=>{
+    const wrap = document.createElement('section');
+    wrap.style.marginTop='18px'; wrap.style.padding='14px'; wrap.style.background='rgba(255,255,255,0.03)'; wrap.style.borderRadius='8px';
+
+    const title = document.createElement('h3');
+    title.textContent = `Text ${pi+1}`;
+    title.style.color='#fff';
+    wrap.appendChild(title);
+
+    const para = document.createElement('p');
+    para.textContent = p.text || '';
+    para.style.lineHeight='1.6';
+    para.style.color='#e6eef8';
+    wrap.appendChild(para);
+
+    // Questions
+    const qwrap = document.createElement('div');
+    qwrap.style.marginTop='12px';
+    const questionsShuffled = shuffle([... (p.questions || []) ]);
+    questionsShuffled.forEach((q, qi) => {
+      const qdiv = document.createElement('div');
+      qdiv.style.marginTop='10px'; qdiv.style.padding='8px'; qdiv.style.borderRadius='6px';
+
+      qdiv.innerHTML = `<div style="font-weight:700; color:#ffd54a">Q${qi+1}: ${q.q}</div>`;
+
+      if(q.type === 'mcq'){
+        const optWrap = document.createElement('div'); optWrap.style.marginTop='8px';
+        q.options.forEach((opt, oi)=>{
+          const id = `q-${pi}-${qi}-${oi}`;
+          const label = document.createElement('label');
+          label.style.display='block'; label.style.cursor='pointer';
+          label.style.padding='6px'; label.style.borderRadius='6px'; label.style.marginBottom='6px';
+          label.style.background='rgba(255,255,255,0.02)';
+          label.innerHTML = `<input type="radio" name="q-${pi}-${qi}" value="${oi}" style="margin-right:8px"> ${opt}`;
+          optWrap.appendChild(label);
+        });
+        qdiv.appendChild(optWrap);
+      } else {
+        qdiv.innerHTML += `<div style="margin-top:8px"><input type="text" name="q-${pi}-${qi}" placeholder="Type your answer" style="width:100%;padding:8px;border-radius:6px;border:1px solid #2b3742;background:#072027;color:#fff"></div>`;
+      }
+      qwrap.appendChild(qdiv);
+    });
+
+    wrap.appendChild(qwrap);
+    content.appendChild(wrap);
+  });
+
+  // Submit button
+  const submit = document.createElement('button');
+  submit.textContent = 'Submit Answers';
+  submit.style.marginTop='18px'; submit.style.padding='12px 18px'; submit.style.borderRadius='8px';
+  submit.style.background='#ffd54a'; submit.style.border='none'; submit.style.fontWeight='700';
+  content.appendChild(submit);
+
+  const result = document.createElement('div'); result.style.marginTop='14px';
+  content.appendChild(result);
+
+  // submit handler: evaluate answers
+  submit.onclick = ()=>{
+    const answers = { correct:0, total:0, blanks:0 };
+    selectedParas.forEach((p, pi)=>{
+      (p.questions || []).forEach((q, qi)=>{
+        answers.total++;
+        const name = `q-${pi}-${qi}`;
+        const inputs = Array.from(document.getElementsByName(name));
+        if(inputs && inputs.length){
+          let selected = null;
+          for(const inp of inputs){ if(inp.checked){ selected = inp.value; break; } }
+          if(selected === null){ answers.blanks++; }
+          if(q.type === 'mcq' && selected !== null && Number(selected) === Number(q.answer)) answers.correct++;
+        } else {
+          const input = document.querySelector(`[name="${name}"]`);
+          const val = input ? (input.value||'').trim() : '';
+          if(!val) { answers.blanks++; }
+          if(q.type === 'fill' && val && String(val).toLowerCase() === String(q.answer).toLowerCase()) answers.correct++;
+        }
+      });
+    });
+
+    result.innerHTML = `<div style="background:rgba(0,0,0,0.45);padding:12px;border-radius:8px">
+      <strong>Score:</strong> ${answers.correct} / ${answers.total} (${answers.total ? Math.round(answers.correct/answers.total*100) : 0}%)<br>
+      <small>Blank answers: ${answers.blanks}</small>
+    </div>`;
+  };
+
+} function showLevelSelection(){
+  const el = document.createElement('div');
+  el.innerHTML = `<h1 style="color:#ffd54a">Reading — Choose level</h1>`;
+  
+  // Grid of level buttons
+  const grid = document.createElement('div');
+  grid.style.display='grid';
+  grid.style.gridTemplateColumns='repeat(auto-fit,minmax(160px,1fr))';
+  grid.style.gap='12px';
+  grid.style.marginTop='18px';
+  levels.forEach(l=>{
+    const a = document.createElement('a');
+    a.href = `lesson.html?level=${l}`;
+    a.textContent = l.toUpperCase();
+    a.style.padding='18px'; a.style.display='block'; a.style.textAlign='center';
+    a.style.borderRadius='8px';
+    a.style.background='linear-gradient(135deg,#1f2937,#111827)';
+    a.style.textDecoration='none'; a.style.fontWeight='700'; a.style.color='#fff';
+    grid.appendChild(a);
+  });
+  el.appendChild(grid);
+
+  el.innerHTML += `<p style="margin-top:18px;color:#cbd5e1">
+    Click a level to open 2 short paragraphs and 5 multiple-choice questions per paragraph.
+  </p>`;
+
+  // ===== ADD BACK TO PRACTICE BUTTON =====
+  const backBtn = document.createElement('button');
+  backBtn.textContent = '← Back to Practice';
+  backBtn.style.marginTop = '18px';
+  backBtn.style.padding = '10px 16px';
+  backBtn.style.border = 'none';
+  backBtn.style.borderRadius = '8px';
+  backBtn.style.background = '#1f2937';
+  backBtn.style.color = '#ffd54a';
+  backBtn.style.fontWeight = '700';
+  backBtn.style.cursor = 'pointer';
+  backBtn.onclick = ()=>{ location.href = 'index.html'; }; // link to your practice main page
+  el.appendChild(backBtn);
+
+  content.appendChild(el);
+}
+// end renderLesson
+</script>
+</body>
+</html>

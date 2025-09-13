@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practice</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background: linear-gradient(135deg, #0f2027, #2c5364, #203a43);
+      color: white;
+      text-align: center;
+    }
+    h1 {
+      color: #ffd54a;
+      margin-bottom: 20px;
+    }
+    .practice-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      max-width: 600px;
+      margin: 40px auto;
+    }
+    .practice-btn {
+      display: block;
+      padding: 15px;
+      background: #ffd54a;
+      color: #000;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 8px;
+    }
+    .practice-btn:hover {
+      background: #ffcc00;
+    }
+  </style>
+</head>
+<body>
+  <!-- ✅ Navigation bar -->
+  <header>
+    <div class="logo">
+      <img src="../images/german-flag.png" alt="German Flag">
+      <h1>Learn German Grammar</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../about.html">About</a></li>
+        <li><a href="../levels.html">Levels</a></li>
+        <li><a href="index.html" class="active">Practice</a></li>
+        <li><a href="../vocab.html">Vocabulary</a></li>
+        <li><a href="../contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ✅ Practice section -->
+  <h1>Practice Section</h1>
+  <p>Select what you want to practice:</p>
+
+  <div class="practice-grid">
+    <a href="lesson.html" class="practice-btn">📖 Reading</a>
+    <a href="grammar.html" class="practice-btn">✍️ Grammar Quiz</a>
+  </div>
+</body>
+</html>

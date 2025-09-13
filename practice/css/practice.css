@@ -1,0 +1,30 @@
+/* practice/css/practice.css */
+:root{
+  --bg:#0f1724; --card:#0b1220; --accent1:#6ee7b7; --accent2:#60a5fa;
+  --txt:#f8fafc;
+}
+*{box-sizing:border-box}
+body{
+  margin:0; font-family:Inter, Arial, sans-serif; background:linear-gradient(180deg,#061021,#0f1724); color:var(--txt);
+}
+.ph-header{ text-align:center; padding:36px 16px 8px; }
+.ph-header h1{ margin:0; font-size:26px; color:var(--accent2); }
+.ph-quote{ margin-top:8px; color:#cbd5e1; font-style:italic; }
+
+.ph-main{ padding:24px; max-width:980px; margin:0 auto; }
+
+.ph-grid{
+  display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:18px;
+}
+.ph-card{
+  display:flex; align-items:center; justify-content:center; min-height:140px; text-decoration:none;
+  border-radius:12px; background:linear-gradient(135deg,#081228 0%, #0b1220 100%);
+  box-shadow:0 10px 30px rgba(2,6,23,0.7); color:var(--txt); font-weight:700; font-size:18px;
+  transition:transform .15s,box-shadow .15s;
+}
+.ph-card:hover{ transform:translateY(-6px); box-shadow:0 16px 36px rgba(2,6,23,0.9); }
+
+.ph-card.reading{ background:linear-gradient(135deg,#7f7fd5,#86a8e7); color:#022; }
+.ph-card.listening{ background:linear-gradient(135deg,#f6d365,#fda085); color:#111; }
+.ph-card.grammar{ background:linear-gradient(135deg,#90f7ec,#32ccbc); color:#022; }
+.ph-card.vocab{ background:linear-gradient(135deg,#ffd3a5,#fd6585); color:#111; }
