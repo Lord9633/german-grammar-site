@@ -12,17 +12,19 @@
     <img src="images/german-flag.png" alt="German Flag">
     <h1>Learn German Grammar</h1>
   </div>
+  <button class="menu-toggle">☰</button>
   <nav>
     <ul>
       <li><a href="index.html">Home</a></li>
       <li><a href="about.html">About</a></li>
       <li><a href="levels.html">Levels</a></li>
       <li><a href="practice/index.html">Practice</a></li>
-      <li><a href="assets/vocab.pdf" target="_blank">Vocabulary</a></li>
+      <li><a href="vocab.html">Vocabulary</a></li>
       <li><a href="contact.html">Contact</a></li>
     </ul>
   </nav>
 </header>
+
 
   
   </header>
@@ -39,6 +41,14 @@
 
 
   </section>
+<script>
+  const toggle = document.querySelector(".menu-toggle");
+  const nav = document.querySelector("nav ul");
+
+  toggle.addEventListener("click", () => {
+    nav.classList.toggle("show");
+  });
+</script>
 </body>
 </html>
 

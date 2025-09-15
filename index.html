@@ -17,6 +17,7 @@
     <img src="images/german-flag.png" alt="German Flag">
     <h1>Learn German Grammar</h1>
   </div>
+  <button class="menu-toggle">☰</button>
   <nav>
     <ul>
       <li><a href="index.html">Home</a></li>
@@ -28,6 +29,7 @@
     </ul>
   </nav>
 </header>
+
 
   
  
@@ -99,6 +101,14 @@
       .then(() => console.log("Service Worker registered"))
       .catch(err => console.log("SW registration failed:", err));
   }
+</script>
+<script>
+  const toggle = document.querySelector(".menu-toggle");
+  const nav = document.querySelector("nav ul");
+
+  toggle.addEventListener("click", () => {
+    nav.classList.toggle("show");
+  });
 </script>
 </body>
 </html>
