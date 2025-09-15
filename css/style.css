@@ -563,6 +563,14 @@ footer a {
 footer a:hover {
   color: #f39c12;
 }
+/* Custom background for Topics Page */
+body.topics-page {
+  background-color: #fff8e1; /* light yellow, change if you want */
+}
+/* Custom background for all A1 topic pages */
+body.a1-topic {
+  background-color: #f0f8ff; /* light blue */
+}
 
 
 

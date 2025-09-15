@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <title>Learn German Grammar - Free Notes</title>
   <link rel="stylesheet" href="css/style.css">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#ffd54a">
 </head>
 
 
@@ -91,6 +93,13 @@
   <p><a href="../contact.html">Contact Us</a></p>
 </footer>
 
+<script>
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("sw.js")
+      .then(() => console.log("Service Worker registered"))
+      .catch(err => console.log("SW registration failed:", err));
+  }
+</script>
 </body>
 </html>
 
