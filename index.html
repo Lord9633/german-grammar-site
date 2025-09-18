@@ -4,37 +4,106 @@
   <meta charset="UTF-8">
   <title>Learn German Grammar - Free Notes</title>
   <link rel="stylesheet" href="css/style.css">
-<link rel="manifest" href="manifest.json">
-<meta name="theme-color" content="#ffd54a">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#ffd54a">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    /* Basic reset */
+    body, ul {
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #333;
+      color: white;
+      padding: 10px 20px;
+      position: relative;
+    }
+
+    header .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    header .logo img {
+      width: 40px;
+      height: auto;
+    }
+
+    header h1 {
+      font-size: 20px;
+      margin: 0;
+    }
+
+    nav ul {
+      display: flex;
+      gap: 20px;
+      list-style: none;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    /* Menu button hidden on desktop */
+    .menu-toggle {
+      display: none;
+      font-size: 26px;
+      color: white;
+      background: none;
+      border: none;
+      cursor: pointer;
+    }
+
+    /* Mobile styles */
+    @media (max-width: 768px) {
+      nav ul {
+        display: none;
+        flex-direction: column;
+        background: #333;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 200px;
+        padding: 10px;
+      }
+
+      nav ul.show {
+        display: flex;
+      }
+
+      .menu-toggle {
+        display: block;
+      }
+    }
+  </style>
 </head>
-
-
 
 <body>
   <!-- Navigation -->
-<header>
-  <div class="logo">
-    <img src="images/german-flag.png" alt="German Flag">
-    <h1>Learn German Grammar</h1>
-  </div>
-  <button class="menu-toggle">☰</button>
-  <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="levels.html">Levels</a></li>
-      <li><a href="practice/index.html">Practice</a></li>
-      <li><a href="assets/vocab.pdf" target="_blank">Vocabulary</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
-</header>
-
-
-  
- 
-
+  <header>
+    <div class="logo">
+      <img src="images/german-flag.png" alt="German Flag">
+      <h1>Learn German Grammar</h1>
+    </div>
+    <button class="menu-toggle">☰</button>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="levels.html">Levels</a></li>
+        <li><a href="practice/index.html">Practice</a></li>
+        <li><a href="assets/vocab.pdf" target="_blank">Vocabulary</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
     </nav>
   </header>
 
@@ -43,29 +112,24 @@
     <div class="hero-text">
       <h2>Master German Grammar for Free</h2>
       <p>All levels A1 to B2 explained with examples and practice material.</p>
+
       <!-- Home Section -->
-<section class="home">
-  <div class="home-content">
-    <h1> Learn German Grammar</h1>
+      <section class="home">
+        <div class="home-content">
+          <h1> Learn German Grammar</h1>
 
-    <a href="levels.html" class="button">🚀 Start Learning</a>
-    <p class="quote">"Learning a new language is like gaining a new soul."</p>
+          <a href="levels.html" class="button">🚀 Start Learning</a>
+          <p class="quote">"Learning a new language is like gaining a new soul."</p>
 
-    <a href="practice/index.html" class="button">📝 Start Practice</a>
-    <p class="quote">"Practice makes progress – every day a little better!"</p>
+          <a href="practice/index.html" class="button">📝 Start Practice</a>
+          <p class="quote">"Practice makes progress – every day a little better!"</p>
 
-    <a href="assets/vocab.pdf" target="_blank" class="button">📚 Vocabulary</a>
-    <p class="quote">"Build your word bank – one verb at a time!"</p>
-  </div>
-</section>
-
-     
-
-
-
-
-
+          <a href="assets/vocab.pdf" target="_blank" class="button">📚 Vocabulary</a>
+          <p class="quote">"Build your word bank – one verb at a time!"</p>
+        </div>
+      </section>
     </div>
+
     <div class="hero-image">
       <img src="images/berlin.jpg" alt="Berlin Landmark">
     </div>
@@ -91,28 +155,29 @@
   </section>
 
   <!-- Footer -->
- <footer>
-  <p>© 2025 Learn German Grammar | Made with ❤️ for learners</p>
-  <p><a href="../contact.html">Contact Us</a></p>
-</footer>
+  <footer>
+    <p>© 2025 Learn German Grammar | Made with ❤️ for learners</p>
+    <p><a href="../contact.html">Contact Us</a></p>
+  </footer>
 
-<script>
-  if ("serviceWorker" in navigator) {
-    navigator.serviceWorker.register("sw.js")
-      .then(() => console.log("Service Worker registered"))
-      .catch(err => console.log("SW registration failed:", err));
-  }
-</script>
-<script>
-  const toggle = document.querySelector(".menu-toggle");
-  const nav = document.querySelector("nav ul");
+  <!-- Scripts -->
+  <script>
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("sw.js")
+        .then(() => console.log("Service Worker registered"))
+        .catch(err => console.log("SW registration failed:", err));
+    }
+  </script>
 
-  toggle.addEventListener("click", () => {
-    nav.classList.toggle("show");
-  });
-</script>
-<script type="text/javascript" src="js/script.js"></script>
+  <script>
+    const toggle = document.querySelector(".menu-toggle");
+    const nav = document.querySelector("nav ul");
 
+    toggle.addEventListener("click", () => {
+      nav.classList.toggle("show");
+    });
+  </script>
+
+  <script type="text/javascript" src="./js/script.js"></script>
 </body>
 </html>
-

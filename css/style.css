@@ -665,22 +665,85 @@ nav ul li a:hover {
   color: #111827;
 }
 
+/* Mobile Menu Compact Dropdown */
 @media (max-width: 768px) {
-  .menu-toggle {
-    display: block;
-  }
   nav ul {
     display: none;
     flex-direction: column;
-    width: 100%;
-    background: #111827;
-    margin-top: 10px;
+    background: #333;
+    position: absolute;
+    top: 55px;          /* below header */
+    right: 15px;        /* align near toggle */
+    width: auto;        /* shrink to fit content */
+    min-width: 150px;   /* not too narrow */
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    z-index: 1000;
   }
+
   nav ul.show {
     display: flex;
   }
+
   nav ul li {
-    margin: 10px 0;
+    margin: 8px 0;   /* space between items */
+    text-align: right;
+  }
+
+  .menu-toggle {
+    display: block;
+    font-size: 26px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+}
+/* Desktop styles */
+.menu-toggle {
+  display: none; /* hidden on desktop */
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;         /* show ☰ button */
+    font-size: 26px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+
+  nav ul {
+    display: none;          /* hide menu by default */
+    flex-direction: column; /* stack vertically */
+    background: #333;
+    position: absolute;
+    top: 60px;              /* below header */
+    right: 15px;
+    width: auto;            /* shrink to content */
+    min-width: 160px;       /* keep a nice size */
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    z-index: 1000;
+  }
+
+  nav ul.show {
+    display: flex; /* show when toggled */
+  }
+
+  nav ul li {
+    margin: 8px 0;
+    text-align: right;
   }
 }
 
