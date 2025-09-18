@@ -27,7 +27,9 @@
     li {
       margin: 12px 0;
     }
-    a {
+
+    /* ✅ Topic links only */
+    .topics a {
       display: block;
       padding: 12px;
       background: #ffdd59;
@@ -35,66 +37,63 @@
       text-decoration: none;
       border-radius: 6px;
       font-weight: bold;
+      transition: 0.3s;
     }
-    a:hover {
+    .topics a:hover {
       background: #fbc531;
+      color: #000;
     }
   </style>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
   <header>
-  <div class="logo">
-    <img src="../images/german-flag.png" alt="German Flag">
-    <h1>Learn German Grammar</h1>
-  </div>
-  <button class="menu-toggle">☰</button>
-  <nav>
-    <ul>
-      <li><a href="../index.html">Home</a></li>
-      <li><a href="../about.html">About</a></li>
-      <li><a href="../levels.html">Levels</a></li>
-      <li><a href="../practice/index.html">Practice</a></li>
-      <li><a href="../assets/vocab.pdf">Vocabulary</a></li>
-      <li><a href="../contact.html">Contact</a></li>
-    </ul>
-  </nav>
-</header>
+    <div class="logo">
+      <img src="../images/german-flag.png" alt="German Flag">
+      <h1>Learn German Grammar</h1>
+    </div>
+    <button class="menu-toggle">☰</button>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../about.html">About</a></li>
+        <li><a href="../levels.html">Levels</a></li>
+        <li><a href="../practice/index.html">Practice</a></li>
+        <li><a href="../contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
   <section class="topics a2">
-  <h1>A2 Grammar Topics</h1>
-  <p>Select a topic to learn:</p>
+    <h1>A2 Grammar Topics</h1>
+    <p>Select a topic to learn:</p>
 
-  <ul>
-    <li><a href="weil-da-dass.html">Weil, Da, Dass (Subordinate Clauses)</a></li>
-    <li><a href="obwohl-trotzdem.html">Obwohl & Trotzdem (Although / Nevertheless)</a></li>
-    <li><a href="reflexive-verbs.html">Reflexive Verbs</a></li>
-    <li><a href="konjunktiv2.html">Konjunktiv II (Subjunctive)</a></li>
-    <li><a href="indirect-questions.html">Indirect Questions</a></li>
-    <li><a href="damit-umzu.html">Purpose Clauses (damit / um...zu)</a></li>
-    <li><a href="genitive.html">Genitive Case</a></li>
-    <li><a href="adjective-comparison.html">Adjective Comparison (Steigerung)</a></li>
-    <li><a href="relative-clauses.html">Relative Clauses</a></li>
-    <li><a href="adjective-endings.html">Adjective Endings</a></li>
-    <li><a href="local-prepositions.html">Local Prepositions</a></li>
-    <li><a href="interrogative-pronouns.html">Interrogative Pronouns</a></li>
-  </ul>
+    <ul>
+      <li><a href="weil-da-dass.html">Weil, Da, Dass (Subordinate Clauses)</a></li>
+      <li><a href="obwohl-trotzdem.html">Obwohl & Trotzdem (Although / Nevertheless)</a></li>
+      <li><a href="reflexive-verbs.html">Reflexive Verbs</a></li>
+      <li><a href="konjunktiv2.html">Konjunktiv II (Subjunctive)</a></li>
+      <li><a href="indirect-questions.html">Indirect Questions</a></li>
+      <li><a href="damit-umzu.html">Purpose Clauses (damit / um...zu)</a></li>
+      <li><a href="genitive.html">Genitive Case</a></li>
+      <li><a href="adjective-comparison.html">Adjective Comparison (Steigerung)</a></li>
+      <li><a href="relative-clauses.html">Relative Clauses</a></li>
+      <li><a href="adjective-endings.html">Adjective Endings</a></li>
+      <li><a href="local-prepositions.html">Local Prepositions</a></li>
+      <li><a href="interrogative-pronouns.html">Interrogative Pronouns</a></li>
+    </ul>
 
-  <p style="margin-top:30px;">
-    <a href="../levels.html" style="background:#4cd137;color:white;">← Back to Levels</a>
-  </p>
-</section>
+    <p style="margin-top:30px;">
+      <a href="../levels.html" style="background:#4cd137;color:white;">← Back to Levels</a>
+    </p>
+  </section>
 
-<script>
-  const toggle = document.querySelector(".menu-toggle");
-  const nav = document.querySelector("nav ul");
-
-  toggle.addEventListener("click", () => {
-    nav.classList.toggle("show");
-  });
-</script>
-
-<script type="text/javascript" src="../js/script.js"></script>
-
+  <script>
+    const toggle = document.querySelector(".menu-toggle");
+    const nav = document.querySelector("nav ul");
+    toggle.addEventListener("click", () => {
+      nav.classList.toggle("show");
+    });
+  </script>
+  <script src="js/script.js"></script>
 </body>
 </html>

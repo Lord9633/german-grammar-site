@@ -27,15 +27,25 @@
     li {
       margin: 12px 0;
     }
-    a {
-      display: block;
-      padding: 12px;
-      background: #ffdd59;
-      color: #000;
-      text-decoration: none;
-      border-radius: 6px;
-      font-weight: bold;
-    }
+   /* Topic links (yellow boxes) */
+.topics a {
+  display: block;
+  padding: 12px;
+  background: #ffdd59;   /* yellow background */
+  color: #000;           /* black text */
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.topics a:hover {
+  background: #fbc531;   /* darker yellow on hover */
+  color: #000;
+}
+
+
+
     a:hover {
       background: #fbc531;
     }
@@ -55,7 +65,7 @@
       <li><a href="../about.html">About</a></li>
       <li><a href="../levels.html">Levels</a></li>
       <li><a href="../practice/index.html">Practice</a></li>
-      <li><a href="../assets/vocab.pdf">Vocabulary</a></li>
+      
       <li><a href="../contact.html">Contact</a></li>
     </ul>
   </nav>
@@ -104,6 +114,6 @@
     nav.classList.toggle("show");
   });
 </script>
-<script type="text/javascript" src="../js/script.js"></script>
+<script src="js/script.js"></script>
 
 </body>
