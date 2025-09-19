@@ -406,3 +406,31 @@ footer a:hover {
 body {
   margin-top: 70px; /* height of header */
 }
+.contact {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #ffd54a;
+  border-radius: 8px;
+}
+
+.contact input, .contact textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.contact button {
+  padding: 10px 20px;
+  background: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact button:hover {
+  background: #555;
+}
