@@ -3,7 +3,7 @@
 A free and simple website to help learners master **German Grammar** from A1 to B2.  
 Includes explanations, examples, exercises, and vocabulary resources.  
 
-🌐 **Live Website:** https://lord9633.github.io/german-grammar-site/
+🌐 **Live Website:** german-grammar-site.netlify.app
 ---
 
 ## Features
@@ -16,4 +16,4 @@ Includes explanations, examples, exercises, and vocabulary resources.
 ---
 
 ## German Learning PDFs – Grammar & Verbs (A1–B2)
-👉 [Full Grammar & Verbs](german-grammar-site.netlify.app)
+👉 [Full Grammar & Verbs](https://germangrammar.gumroad.com/l/zadgzv)
