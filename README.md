@@ -3,7 +3,7 @@
 A free and simple website to help learners master **German Grammar** from A1 to B2.  
 Includes explanations, examples, exercises, and vocabulary resources.  
 
-🌐 **Live Website:** german-grammar-site.netlify.app
+🌐 **Live Website:(htpps://german-grammar-site.netlify.app)
 ---
 
 ## Features
