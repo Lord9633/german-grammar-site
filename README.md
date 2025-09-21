@@ -1,4 +1,4 @@
-# Learn German Grammar 🇩🇪
+# Learn German Grammar
 
 A free and simple website to help learners master **German Grammar** from A1 to B2.  
 Includes explanations, examples, exercises, and vocabulary resources.  
@@ -16,4 +16,4 @@ Includes explanations, examples, exercises, and vocabulary resources.
 ---
 
 ## German Learning PDFs – Grammar & Verbs (A1–B2)
-👉 [Full Grammar & Verbs](https://abhinavscribe27.gumroad.com/l/zadgzv)
+👉 [Full Grammar & Verbs](german-grammar-site.netlify.app)
