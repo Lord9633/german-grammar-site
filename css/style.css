@@ -434,3 +434,17 @@ body {
 .contact button:hover {
   background: #555;
 }
+.resource-btn{
+    display:inline-block;
+    background:#c62828;
+    color:white;
+    padding:12px 24px;
+    border-radius:10px;
+    text-decoration:none;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.resource-btn:hover{
+    background:#a91f1f;
+}
